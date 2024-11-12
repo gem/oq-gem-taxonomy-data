@@ -4,7 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "openquake.gem-taxonomy-data"
-version = "0.1.0"
+dynamic = ["version"]
+
 # dependencies = [
 #   "oq-gem-taxonomy-data",
 # ]
@@ -28,7 +29,11 @@ classifiers = [
 include-package-data = false
 
 [tool.setuptools.packages.find]
-include = ['openquake*']
+namespaces = true
+where = ["."]
+
+[tool.setuptools.dynamic]
+version = {attr = "openquake.gem_taxonomy_data.__version__"}
 
 [tool.setuptools.package-data]
 "openquake.gem_taxonomy_data.data" = ["*.json"]

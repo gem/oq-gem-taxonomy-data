@@ -1,0 +1,3685 @@
+{
+    "Attribute": [
+        {
+            "prog": 0,
+            "name": "material",
+            "desc": "Material of the Lateral Load-Resisting System"
+        },
+        {
+            "prog": 100,
+            "name": "llrs",
+            "desc": "Lateral Load-Resisting System"
+        },
+        {
+            "prog": 200,
+            "name": "height",
+            "desc": "Height"
+        },
+        {
+            "prog": 300,
+            "name": "dates",
+            "desc": "Date of Construction or Retrofit"
+        },
+        {
+            "prog": 400,
+            "name": "occupancy",
+            "desc": "Occupancy"
+        },
+        {
+            "prog": 500,
+            "name": "shape",
+            "desc": "Shape of the Building Plan"
+        },
+        {
+            "prog": 600,
+            "name": "irregularity",
+            "desc": "Structural Irregularity"
+        },
+        {
+            "prog": 700,
+            "name": "hydrodynamics",
+            "desc": "Ground floor hydrodynamics"
+        },
+        {
+            "prog": 800,
+            "name": "ext_walls",
+            "desc": "Exterior Walls"
+        },
+        {
+            "prog": 900,
+            "name": "roof",
+            "desc": "Roof"
+        },
+        {
+            "prog": 1000,
+            "name": "floor",
+            "desc": "Floor"
+        },
+        {
+            "prog": 1100,
+            "name": "foundation",
+            "desc": "Foundation System"
+        },
+        {
+            "prog": 1200,
+            "name": "fire_prot",
+            "desc": "Fire protection"
+        }
+    ],
+    "AtomsGroup": [
+        {
+            "prog": 0,
+            "name": "material_type",
+            "desc": "Material type",
+            "group": "material"
+        },
+        {
+            "prog": 100,
+            "name": "concrete_technology",
+            "desc": "Concrete technology",
+            "group": "material"
+        },
+        {
+            "prog": 200,
+            "name": "steel_technology",
+            "desc": "Steel technology",
+            "group": "material"
+        },
+        {
+            "prog": 300,
+            "name": "metal_technology",
+            "desc": "Metal technology",
+            "group": "material"
+        },
+        {
+            "prog": 400,
+            "name": "masonry_technology",
+            "desc": "Masonry technology",
+            "group": "material"
+        },
+        {
+            "prog": 500,
+            "name": "masonry_unit_type",
+            "desc": "Masonry unit type",
+            "group": "material"
+        },
+        {
+            "prog": 600,
+            "name": "earth_technology",
+            "desc": "Earth technology",
+            "group": "material"
+        },
+        {
+            "prog": 700,
+            "name": "wood_technology",
+            "desc": "Wood technology",
+            "group": "material"
+        },
+        {
+            "prog": 800,
+            "name": "mortar_type",
+            "desc": "Mortar type",
+            "group": "material"
+        },
+        {
+            "prog": 900,
+            "name": "stone_type",
+            "desc": "Stone type",
+            "group": "material"
+        },
+        {
+            "prog": 1000,
+            "name": "masonry_reinforcement_type",
+            "desc": "Masonry reinforcement type",
+            "group": "material"
+        },
+        {
+            "prog": 1100,
+            "name": "steel_connection_type",
+            "desc": "Steel connection type",
+            "group": "material"
+        },
+        {
+            "prog": 0,
+            "name": "type_lateral_load",
+            "desc": "Type of lateral load-resisting system",
+            "group": "llrs"
+        },
+        {
+            "prog": 100,
+            "name": "seismic_code_level",
+            "desc": "Seismic code level",
+            "group": "llrs"
+        },
+        {
+            "prog": 200,
+            "name": "lateral_load_coefficient",
+            "desc": "Lateral load coefficient",
+            "group": "llrs"
+        },
+        {
+            "prog": 300,
+            "name": "system_ductility",
+            "desc": "System ductility",
+            "group": "llrs"
+        },
+        {
+            "prog": 400,
+            "name": "columns_wall_density",
+            "desc": "Columns-Wall density",
+            "group": "llrs"
+        },
+        {
+            "prog": 0,
+            "name": "number_of_storeys",
+            "desc": "Number of storeys",
+            "group": "height"
+        },
+        {
+            "prog": 100,
+            "name": "height_structure_m",
+            "desc": "Height of structure (m)",
+            "group": "height"
+        },
+        {
+            "prog": 200,
+            "name": "number_storeys_below",
+            "desc": "Number of storeys below ground",
+            "group": "height"
+        },
+        {
+            "prog": 300,
+            "name": "height_ground_floor",
+            "desc": "Height of ground floor above grade",
+            "group": "height"
+        },
+        {
+            "prog": 400,
+            "name": "slope_the_ground",
+            "desc": "Slope of the ground (degrees)",
+            "group": "height"
+        },
+        {
+            "prog": 0,
+            "name": "construction_completed_year",
+            "desc": "Construction completed (year)",
+            "group": "dates"
+        },
+        {
+            "prog": 100,
+            "name": "physical_condition_maintenance",
+            "desc": "Physical condition / maintenance",
+            "group": "dates"
+        },
+        {
+            "prog": 0,
+            "name": "building_occupancy_class",
+            "desc": "Building occupancy class",
+            "group": "occupancy"
+        },
+        {
+            "prog": 0,
+            "name": "plan_shape_footprint",
+            "desc": "Plan shape (footprint)",
+            "group": "shape"
+        },
+        {
+            "prog": 100,
+            "name": "building_position_within",
+            "desc": "Building Position within a Block",
+            "group": "shape"
+        },
+        {
+            "prog": 0,
+            "name": "regular_or_irregular",
+            "desc": "Regular or irregular",
+            "group": "irregularity"
+        },
+        {
+            "prog": 100,
+            "name": "plan_irregularities",
+            "desc": "Plan irregularities",
+            "group": "irregularity"
+        },
+        {
+            "prog": 200,
+            "name": "vertical_irregularities",
+            "desc": "Vertical irregularities",
+            "group": "irregularity"
+        },
+        {
+            "prog": 300,
+            "name": "plan_irregularity",
+            "desc": "Plan irregularity",
+            "group": "irregularity"
+        },
+        {
+            "prog": 400,
+            "name": "vertical_irregularity",
+            "desc": "Vertical irregularity",
+            "group": "irregularity"
+        },
+        {
+            "prog": 0,
+            "name": "ground_floor_hydrodynamics",
+            "desc": "Ground floor hydrodynamics",
+            "group": "hydrodynamics"
+        },
+        {
+            "prog": 0,
+            "name": "material_exterior_walls",
+            "desc": "Material of exterior walls",
+            "group": "ext_walls"
+        },
+        {
+            "prog": 100,
+            "name": "openings",
+            "desc": "Openings",
+            "group": "ext_walls"
+        },
+        {
+            "prog": 200,
+            "name": "windows_protection",
+            "desc": "Windows protection",
+            "group": "ext_walls"
+        },
+        {
+            "prog": 0,
+            "name": "roof_shape",
+            "desc": "Roof shape",
+            "group": "roof"
+        },
+        {
+            "prog": 100,
+            "name": "roof_covering_material",
+            "desc": "Roof covering material",
+            "group": "roof"
+        },
+        {
+            "prog": 200,
+            "name": "roof_system_material",
+            "desc": "Roof system material",
+            "group": "roof"
+        },
+        {
+            "prog": 300,
+            "name": "roof_system_type",
+            "desc": "Roof system type",
+            "group": "roof"
+        },
+        {
+            "prog": 400,
+            "name": "roof_connections",
+            "desc": "Roof connections",
+            "group": "roof"
+        },
+        {
+            "prog": 0,
+            "name": "floor_system_material",
+            "desc": "Floor system material",
+            "group": "floor"
+        },
+        {
+            "prog": 100,
+            "name": "floor_system_type",
+            "desc": "Floor system type",
+            "group": "floor"
+        },
+        {
+            "prog": 200,
+            "name": "floor_connections",
+            "desc": "Floor connections",
+            "group": "floor"
+        },
+        {
+            "prog": 0,
+            "name": "foundation_system",
+            "desc": "Foundation System",
+            "group": "foundation"
+        },
+        {
+            "prog": 0,
+            "name": "fire_protection",
+            "desc": "Fire protection",
+            "group": "fire_prot"
+        }
+    ],
+    "Atom": [
+        {
+            "prog": "0",
+            "name": "MDD",
+            "desc": "Different materials in the two directions",
+            "group": "material_type",
+            "attr": "material",
+            "type": "",
+            "args": "{\"type\": \"filtered_attribute('material', ['MDD'])\",\n            \"args_min\": 2,\n            \"args_max\": 2,\n            \"must_be_diff\": true\n            }",
+            "params": ""
+        },
+        {
+            "prog": "100",
+            "name": "C",
+            "desc": "Concrete, unknown reinforcement",
+            "group": "material_type",
+            "attr": "material",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "200",
+            "name": "CU",
+            "desc": "Concrete, unreinforced",
+            "group": "material_type",
+            "attr": "material",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "300",
+            "name": "CR",
+            "desc": "Concrete, reinforced",
+            "group": "material_type",
+            "attr": "material",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "400",
+            "name": "SRC",
+            "desc": "Concrete, composite with steel section",
+            "group": "material_type",
+            "attr": "material",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "500",
+            "name": "S",
+            "desc": "Steel",
+            "group": "material_type",
+            "attr": "material",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "600",
+            "name": "ME",
+            "desc": "Metal (except steel)",
+            "group": "material_type",
+            "attr": "material",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "700",
+            "name": "M",
+            "desc": "Masonry, unknown reinforcement",
+            "group": "material_type",
+            "attr": "material",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "800",
+            "name": "MUR",
+            "desc": "Masonry, unreinforced",
+            "group": "material_type",
+            "attr": "material",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "900",
+            "name": "MCF",
+            "desc": "Masonry, confined",
+            "group": "material_type",
+            "attr": "material",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "1000",
+            "name": "MR",
+            "desc": "Masonry, reinforced",
+            "group": "material_type",
+            "attr": "material",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "1100",
+            "name": "E",
+            "desc": "Earth, unknown reinforcement",
+            "group": "material_type",
+            "attr": "material",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "1200",
+            "name": "EU",
+            "desc": "Earth, unreinforced",
+            "group": "material_type",
+            "attr": "material",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "1300",
+            "name": "ER",
+            "desc": "Earth, reinforced",
+            "group": "material_type",
+            "attr": "material",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "1400",
+            "name": "W",
+            "desc": "Wood",
+            "group": "material_type",
+            "attr": "material",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "1500",
+            "name": "HYB",
+            "desc": "Hybrid or composite (mixed) materials",
+            "group": "material_type",
+            "attr": "material",
+            "type": "",
+            "args": "{\"type\": \"filtered_attribute('material', ['MDD', 'HYB'])\",\n            \"args_min\": 2,\n            \"must_be_diff\": true\n            }",
+            "params": ""
+        },
+        {
+            "prog": "1600",
+            "name": "INF",
+            "desc": "Informal materials",
+            "group": "material_type",
+            "attr": "material",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "1700",
+            "name": "MATO",
+            "desc": "Other material",
+            "group": "material_type",
+            "attr": "material",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "0",
+            "name": "CIP",
+            "desc": "Cast-in-place concrete",
+            "group": "concrete_technology",
+            "attr": "material",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "100",
+            "name": "PC",
+            "desc": "Precast concrete",
+            "group": "concrete_technology",
+            "attr": "material",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "200",
+            "name": "CIPPS",
+            "desc": "Cast-in-place prestressed concrete",
+            "group": "concrete_technology",
+            "attr": "material",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "300",
+            "name": "PCPS",
+            "desc": "Precast prestressed concrete",
+            "group": "concrete_technology",
+            "attr": "material",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "0",
+            "name": "SL",
+            "desc": "Cold-formed steel members",
+            "group": "steel_technology",
+            "attr": "material",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "100",
+            "name": "SR",
+            "desc": "Hot-rolled steel members",
+            "group": "steel_technology",
+            "attr": "material",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "200",
+            "name": "SO",
+            "desc": "Steel, other",
+            "group": "steel_technology",
+            "attr": "material",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "0",
+            "name": "MEIR",
+            "desc": "Iron",
+            "group": "metal_technology",
+            "attr": "material",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "100",
+            "name": "MEO",
+            "desc": "Metal, other",
+            "group": "metal_technology",
+            "attr": "material",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "0",
+            "name": "ADO",
+            "desc": "Adobe blocks",
+            "group": "masonry_technology",
+            "attr": "material",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "100",
+            "name": "ST",
+            "desc": "Stone, unknown technology",
+            "group": "masonry_technology",
+            "attr": "material",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "200",
+            "name": "STRUB",
+            "desc": "Rubble (field stone) or semi-dressed stone",
+            "group": "masonry_technology",
+            "attr": "material",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "300",
+            "name": "STDRE",
+            "desc": "Dressed stone",
+            "group": "masonry_technology",
+            "attr": "material",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "0",
+            "name": "CL",
+            "desc": "Fired clay unit, unknown type",
+            "group": "masonry_unit_type",
+            "attr": "material",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "100",
+            "name": "CLBRS",
+            "desc": "Fired clay solid bricks",
+            "group": "masonry_unit_type",
+            "attr": "material",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "200",
+            "name": "CLBRH",
+            "desc": "Fired clay hollow bricks",
+            "group": "masonry_unit_type",
+            "attr": "material",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "300",
+            "name": "CLBLH",
+            "desc": "Fired clay hollow blocks or tiles",
+            "group": "masonry_unit_type",
+            "attr": "material",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "400",
+            "name": "CB",
+            "desc": "Concrete blocks, unknown type",
+            "group": "masonry_unit_type",
+            "attr": "material",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "500",
+            "name": "CBS",
+            "desc": "Concrete blocks, solid",
+            "group": "masonry_unit_type",
+            "attr": "material",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "600",
+            "name": "CBH",
+            "desc": "Concrete blocks, hollow",
+            "group": "masonry_unit_type",
+            "attr": "material",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "700",
+            "name": "MO",
+            "desc": "Masonry unit, other",
+            "group": "masonry_unit_type",
+            "attr": "material",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "0",
+            "name": "ETR",
+            "desc": "Rammed earth",
+            "group": "earth_technology",
+            "attr": "material",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "100",
+            "name": "ETC",
+            "desc": "Cob or wet construction",
+            "group": "earth_technology",
+            "attr": "material",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "200",
+            "name": "ETO",
+            "desc": "Earth technology, other",
+            "group": "earth_technology",
+            "attr": "material",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "0",
+            "name": "WHE",
+            "desc": "Heavy wood",
+            "group": "wood_technology",
+            "attr": "material",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "100",
+            "name": "WLI",
+            "desc": "Light wood members",
+            "group": "wood_technology",
+            "attr": "material",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "200",
+            "name": "WS",
+            "desc": "Solid wood",
+            "group": "wood_technology",
+            "attr": "material",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "300",
+            "name": "WWD",
+            "desc": "Wattle and daub",
+            "group": "wood_technology",
+            "attr": "material",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "400",
+            "name": "WBB",
+            "desc": "Bamboo",
+            "group": "wood_technology",
+            "attr": "material",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "500",
+            "name": "WO",
+            "desc": "Wood, other",
+            "group": "wood_technology",
+            "attr": "material",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "0",
+            "name": "MON",
+            "desc": "No mortar",
+            "group": "mortar_type",
+            "attr": "material",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "100",
+            "name": "MOM",
+            "desc": "Mud mortar",
+            "group": "mortar_type",
+            "attr": "material",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "200",
+            "name": "MOL",
+            "desc": "Lime mortar",
+            "group": "mortar_type",
+            "attr": "material",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "300",
+            "name": "MOC",
+            "desc": "Cement mortar",
+            "group": "mortar_type",
+            "attr": "material",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "400",
+            "name": "MOCL",
+            "desc": "Cement:lime mortar",
+            "group": "mortar_type",
+            "attr": "material",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "0",
+            "name": "SPLI",
+            "desc": "Limestone",
+            "group": "stone_type",
+            "attr": "material",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "100",
+            "name": "SPSA",
+            "desc": "Sandstone",
+            "group": "stone_type",
+            "attr": "material",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "200",
+            "name": "SPTU",
+            "desc": "Tuff",
+            "group": "stone_type",
+            "attr": "material",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "300",
+            "name": "SPSL",
+            "desc": "Slate",
+            "group": "stone_type",
+            "attr": "material",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "400",
+            "name": "SPGR",
+            "desc": "Granite",
+            "group": "stone_type",
+            "attr": "material",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "500",
+            "name": "SPBA",
+            "desc": "Basalt",
+            "group": "stone_type",
+            "attr": "material",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "600",
+            "name": "SPO",
+            "desc": "Stone, other type",
+            "group": "stone_type",
+            "attr": "material",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "0",
+            "name": "RS",
+            "desc": "Steel-reinforced",
+            "group": "masonry_reinforcement_type",
+            "attr": "material",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "100",
+            "name": "RW",
+            "desc": "Wood-reinforced",
+            "group": "masonry_reinforcement_type",
+            "attr": "material",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "200",
+            "name": "RB",
+            "desc": "Bamboo-, cane- or rope-reinforced",
+            "group": "masonry_reinforcement_type",
+            "attr": "material",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "300",
+            "name": "RCM",
+            "desc": "Fibre reinforcing mesh",
+            "group": "masonry_reinforcement_type",
+            "attr": "material",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "400",
+            "name": "RCB",
+            "desc": "Reinforced concrete bands",
+            "group": "masonry_reinforcement_type",
+            "attr": "material",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "0",
+            "name": "WEL",
+            "desc": "Welded connections",
+            "group": "steel_connection_type",
+            "attr": "material",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "100",
+            "name": "RIV",
+            "desc": "Riveted connections",
+            "group": "steel_connection_type",
+            "attr": "material",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "200",
+            "name": "BOL",
+            "desc": "Bolted connections",
+            "group": "steel_connection_type",
+            "attr": "material",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "0",
+            "name": "LDD",
+            "desc": "Different types of llrs in the two directions",
+            "group": "type_lateral_load",
+            "attr": "llrs",
+            "type": "",
+            "args": "{\"type\": \"filtered_attribute('llrs', ['LDD'])\",\n            \"args_min\": 2,\n            \"args_max\": 2,\n            \"must_be_diff\": true\n            }",
+            "params": ""
+        },
+        {
+            "prog": "100",
+            "name": "LN",
+            "desc": "No lateral load-resisting system",
+            "group": "type_lateral_load",
+            "attr": "llrs",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "200",
+            "name": "LFM",
+            "desc": "Moment frame",
+            "group": "type_lateral_load",
+            "attr": "llrs",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "300",
+            "name": "LFINF",
+            "desc": "Infilled frame",
+            "group": "type_lateral_load",
+            "attr": "llrs",
+            "type": "",
+            "args": "{\"type\": \"filtered_attribute('material', ['MDD','HYB'])\",\n            \"args_min\": 0,\n            \"args_max\": 1\n            }",
+            "params": ""
+        },
+        {
+            "prog": "400",
+            "name": "LFBR",
+            "desc": "Braced frame",
+            "group": "type_lateral_load",
+            "attr": "llrs",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "500",
+            "name": "LPB",
+            "desc": "Post and beam",
+            "group": "type_lateral_load",
+            "attr": "llrs",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "600",
+            "name": "LWAL",
+            "desc": "Wall",
+            "group": "type_lateral_load",
+            "attr": "llrs",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "700",
+            "name": "LDUAL",
+            "desc": "Dual frame-wall system",
+            "group": "type_lateral_load",
+            "attr": "llrs",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "800",
+            "name": "LFLS",
+            "desc": "Flat slab/plate or waffle slab",
+            "group": "type_lateral_load",
+            "attr": "llrs",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "900",
+            "name": "LFLSINF",
+            "desc": "Infilled flat slab/plate or infilled waffle slab",
+            "group": "type_lateral_load",
+            "attr": "llrs",
+            "type": "",
+            "args": "{\"type\": \"filtered_attribute('material', ['MDD', 'HYB'])\",\n                \"args_min\": 0,\n                \"args_max\": 1\n                }",
+            "params": ""
+        },
+        {
+            "prog": "1000",
+            "name": "LHV",
+            "desc": "LHV(sys_a-sys_b), hybrid LLRS in height \n(a= primary system and secondary system)",
+            "group": "type_lateral_load",
+            "attr": "llrs",
+            "type": "",
+            "args": "{\"type\": \"filtered_attribute('llrs', ['LDD', 'LHV'])\",\n            \"args_min\": 2,\n            \"must_be_diff\": true\n            }",
+            "params": ""
+        },
+        {
+            "prog": "1100",
+            "name": "LO",
+            "desc": "Other lateral load-resisting system",
+            "group": "type_lateral_load",
+            "attr": "llrs",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "0",
+            "name": "CDN",
+            "desc": "No-code",
+            "group": "seismic_code_level",
+            "attr": "llrs",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "100",
+            "name": "CDL",
+            "desc": "Low code",
+            "group": "seismic_code_level",
+            "attr": "llrs",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "200",
+            "name": "CDM",
+            "desc": "Moderate code",
+            "group": "seismic_code_level",
+            "attr": "llrs",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "300",
+            "name": "CDH",
+            "desc": "High code",
+            "group": "seismic_code_level",
+            "attr": "llrs",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "0",
+            "name": "LFC",
+            "desc": "LFC:n, n is the lateral force coefficient in percentage (%)",
+            "group": "lateral_load_coefficient",
+            "attr": "llrs",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "0",
+            "name": "DNO",
+            "desc": "Non-ductile",
+            "group": "system_ductility",
+            "attr": "llrs",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "100",
+            "name": "DUL",
+            "desc": "Low ductility",
+            "group": "system_ductility",
+            "attr": "llrs",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "200",
+            "name": "DUM",
+            "desc": "Moderate ductility",
+            "group": "system_ductility",
+            "attr": "llrs",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "300",
+            "name": "DUH",
+            "desc": "High Ductility",
+            "group": "system_ductility",
+            "attr": "llrs",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "400",
+            "name": "DBD",
+            "desc": "Equipped with base isolation and/or energy dissipation devices",
+            "group": "system_ductility",
+            "attr": "llrs",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "0",
+            "name": "DCW",
+            "desc": "Float specifying the density or ratio between the area of columns and/or walls and the area of the building plan.\n(DCW <= 1)",
+            "group": "columns_wall_density",
+            "attr": "llrs",
+            "type": "",
+            "args": "",
+            "params": "{\"type\": \"float\",\n            \"min\": 0,\n            \"min_incl\": true,\n            \"max\": 1,\n            \"max_incl\": true\n            }"
+        },
+        {
+            "prog": "0",
+            "name": "H",
+            "desc": "H:n, exact number of storeys above ground",
+            "group": "number_of_storeys",
+            "attr": "height",
+            "type": "",
+            "args": "",
+            "params": "{\n            \"type\": \"rangeable_int\",\n            \"min\": 0,\n            \"min_incl\": true\n}"
+        },
+        {
+            "prog": "100",
+            "name": "HAPP",
+            "desc": "HAPP:n, approximate number of storeys above ground.",
+            "group": "number_of_storeys",
+            "attr": "height",
+            "type": "",
+            "args": "",
+            "params": "{\n            \"type\": \"int\",\n            \"min\": 0,\n            \"min_incl\": true\n}"
+        },
+        {
+            "prog": "0",
+            "name": "HHT",
+            "desc": "HHT:n, total height of the structure, measured from the ground floor. Float specifying the height of the structures in meters. (HHT>= 1)",
+            "group": "height_structure_m",
+            "attr": "height",
+            "type": "",
+            "args": "",
+            "params": "{\n            \"type\": \"float\",\n            \"min\": 1,\n            \"min_incl\": true\n}"
+        },
+        {
+            "prog": "100",
+            "name": "HHI",
+            "desc": "HHI:n, inter-storey height (average). Float specifying the average floor height in meters. (HHI>= 1)",
+            "group": "height_structure_m",
+            "attr": "height",
+            "type": "",
+            "args": "",
+            "params": "{\n            \"type\": \"float\",\n            \"min\": 1,\n            \"min_incl\": true\n}"
+        },
+        {
+            "prog": "0",
+            "name": "HB",
+            "desc": "HB:n, exact number of storeys below ground (same as number of basements)",
+            "group": "number_storeys_below",
+            "attr": "height",
+            "type": "",
+            "args": "",
+            "params": "{\n            \"type\": \"rangeable_int\",\n            \"min\": 0,\n            \"min_incl\": true\n}"
+        },
+        {
+            "prog": "100",
+            "name": "HBAPP",
+            "desc": "HBAPP:n, approximate number of storeys below ground",
+            "group": "number_storeys_below",
+            "attr": "height",
+            "type": "",
+            "args": "",
+            "params": "{\n            \"type\": \"int\",\n            \"min\": 0,\n            \"min_incl\": true\n}"
+        },
+        {
+            "prog": "0",
+            "name": "HF",
+            "desc": "HF:n, exact height of ground floor level above grade",
+            "group": "height_ground_floor",
+            "attr": "height",
+            "type": "",
+            "args": "",
+            "params": "{\n            \"type\": \"rangeable_float\",\n            \"min\": 0,\n            \"min_incl\": true\n}"
+        },
+        {
+            "prog": "100",
+            "name": "HFAPP",
+            "desc": "HFAPP:n, approximate height of  ground floor level above grade",
+            "group": "height_ground_floor",
+            "attr": "height",
+            "type": "",
+            "args": "",
+            "params": "{\n            \"type\": \"float\",\n            \"min\": 0,\n            \"min_incl\": true\n}"
+        },
+        {
+            "prog": "0",
+            "name": "HD",
+            "desc": "HD:n, slope of the ground (n=float in degrees).",
+            "group": "slope_the_ground",
+            "attr": "height",
+            "type": "",
+            "args": "",
+            "params": "{\n            \"type\": \"float\",\n            \"min\": 0,\n            \"min_incl\": true,\n            \"max\": 90,\n            \"max_incl\": false\n}"
+        },
+        {
+            "prog": "0",
+            "name": "Y",
+            "desc": "Y:n, Exact date of construction or retrofit",
+            "group": "construction_completed_year",
+            "attr": "dates",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "100",
+            "name": "YPRE",
+            "desc": "YPRE:n, Latest possible date of construction or retrofit",
+            "group": "construction_completed_year",
+            "attr": "dates",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "200",
+            "name": "YAPP",
+            "desc": "YAPP:n, Approximate date of construction or retrofit",
+            "group": "construction_completed_year",
+            "attr": "dates",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "0",
+            "name": "YMP",
+            "desc": "Poor physical condition/maintenance",
+            "group": "physical_condition_maintenance",
+            "attr": "dates",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "100",
+            "name": "YMM",
+            "desc": "Moderate physical condition/maintenance",
+            "group": "physical_condition_maintenance",
+            "attr": "dates",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "200",
+            "name": "YMG",
+            "desc": "Good physical condition/maintenance",
+            "group": "physical_condition_maintenance",
+            "attr": "dates",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "0",
+            "name": "RES",
+            "desc": "Residential",
+            "group": "building_occupancy_class",
+            "attr": "occupancy",
+            "type": "",
+            "args": "",
+            "params": "{\"type\": \"options\"}"
+        },
+        {
+            "prog": "1200",
+            "name": "COM",
+            "desc": "Commercial and public",
+            "group": "building_occupancy_class",
+            "attr": "occupancy",
+            "type": "",
+            "args": "",
+            "params": "{\"type\": \"options\"}"
+        },
+        {
+            "prog": "2600",
+            "name": "MIX",
+            "desc": "Mixed",
+            "group": "building_occupancy_class",
+            "attr": "occupancy",
+            "type": "",
+            "args": "{\"type\": \"filtered_atomsgroup('building_occupancy_class', ['MIX'])\",\n            \"args_min\": 2,\n            \"must_be_diff\": true\n            }",
+            "params": ""
+        },
+        {
+            "prog": "2700",
+            "name": "IND",
+            "desc": "Industrial",
+            "group": "building_occupancy_class",
+            "attr": "occupancy",
+            "type": "",
+            "args": "",
+            "params": "{\"type\": \"options\"}"
+        },
+        {
+            "prog": "3400",
+            "name": "AGR",
+            "desc": "Agriculture",
+            "group": "building_occupancy_class",
+            "attr": "occupancy",
+            "type": "",
+            "args": "",
+            "params": "{\"type\": \"options\"}"
+        },
+        {
+            "prog": "3800",
+            "name": "GOV",
+            "desc": "Government",
+            "group": "building_occupancy_class",
+            "attr": "occupancy",
+            "type": "",
+            "args": "",
+            "params": "{\"type\": \"options\"}"
+        },
+        {
+            "prog": "4400",
+            "name": "EDU",
+            "desc": "Education",
+            "group": "building_occupancy_class",
+            "attr": "occupancy",
+            "type": "",
+            "args": "",
+            "params": "{\"type\": \"options\"}"
+        },
+        {
+            "prog": "5500",
+            "name": "HEA",
+            "desc": "Healthcare",
+            "group": "building_occupancy_class",
+            "attr": "occupancy",
+            "type": "",
+            "args": "",
+            "params": "{\"type\": \"options\"}"
+        },
+        {
+            "prog": "6600",
+            "name": "TRT",
+            "desc": "Transportation",
+            "group": "building_occupancy_class",
+            "attr": "occupancy",
+            "type": "",
+            "args": "",
+            "params": "{\"type\": \"options\"}"
+        },
+        {
+            "prog": "7000",
+            "name": "OCO",
+            "desc": "Other occupancy type",
+            "group": "building_occupancy_class",
+            "attr": "occupancy",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "0",
+            "name": "PLFSQ",
+            "desc": "Square, solid",
+            "group": "plan_shape_footprint",
+            "attr": "shape",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "100",
+            "name": "PLFSQO",
+            "desc": "Square, with an interior opening (e.g. a \"donut\")",
+            "group": "plan_shape_footprint",
+            "attr": "shape",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "200",
+            "name": "PLFR",
+            "desc": "Rectangular, solid",
+            "group": "plan_shape_footprint",
+            "attr": "shape",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "300",
+            "name": "PLFRO",
+            "desc": "Rectangular, with an opening",
+            "group": "plan_shape_footprint",
+            "attr": "shape",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "400",
+            "name": "PLFL",
+            "desc": "L-shape",
+            "group": "plan_shape_footprint",
+            "attr": "shape",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "500",
+            "name": "PLFA",
+            "desc": "A-shape",
+            "group": "plan_shape_footprint",
+            "attr": "shape",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "600",
+            "name": "PLFB",
+            "desc": "B-shape",
+            "group": "plan_shape_footprint",
+            "attr": "shape",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "700",
+            "name": "PLFC",
+            "desc": "Curved, solid (e.g. circular, elliptical, ovoid)",
+            "group": "plan_shape_footprint",
+            "attr": "shape",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "800",
+            "name": "PLFCO",
+            "desc": "Circular, with an opening",
+            "group": "plan_shape_footprint",
+            "attr": "shape",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "900",
+            "name": "PLFD",
+            "desc": "Triangular shape, solid",
+            "group": "plan_shape_footprint",
+            "attr": "shape",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "1000",
+            "name": "PLFDO",
+            "desc": "Triangular shape, with an opening",
+            "group": "plan_shape_footprint",
+            "attr": "shape",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "1100",
+            "name": "PLFE",
+            "desc": "E-shape",
+            "group": "plan_shape_footprint",
+            "attr": "shape",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "1200",
+            "name": "PLFF",
+            "desc": "F-shape",
+            "group": "plan_shape_footprint",
+            "attr": "shape",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "1300",
+            "name": "PLFH",
+            "desc": "H-shape",
+            "group": "plan_shape_footprint",
+            "attr": "shape",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "1400",
+            "name": "PLFS",
+            "desc": "S-shape",
+            "group": "plan_shape_footprint",
+            "attr": "shape",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "1500",
+            "name": "PLFT",
+            "desc": "T-shape",
+            "group": "plan_shape_footprint",
+            "attr": "shape",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "1600",
+            "name": "PLFU",
+            "desc": "U-shape",
+            "group": "plan_shape_footprint",
+            "attr": "shape",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "1700",
+            "name": "PLFX",
+            "desc": "X-shape",
+            "group": "plan_shape_footprint",
+            "attr": "shape",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "1800",
+            "name": "PLFY",
+            "desc": "Y-shape",
+            "group": "plan_shape_footprint",
+            "attr": "shape",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "1900",
+            "name": "PLFI",
+            "desc": "Irregular plan shape",
+            "group": "plan_shape_footprint",
+            "attr": "shape",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "0",
+            "name": "BPD",
+            "desc": "Detached building",
+            "group": "building_position_within",
+            "attr": "shape",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "100",
+            "name": "BP1",
+            "desc": " Adjoining building(s) on one side",
+            "group": "building_position_within",
+            "attr": "shape",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "200",
+            "name": "BP2",
+            "desc": " Adjoining buildings on two sides",
+            "group": "building_position_within",
+            "attr": "shape",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "300",
+            "name": "BP3",
+            "desc": " Adjoining buildings on three sides",
+            "group": "building_position_within",
+            "attr": "shape",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "0",
+            "name": "IRR",
+            "desc": "Regular structure",
+            "group": "regular_or_irregular",
+            "attr": "irregularity",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "100",
+            "name": "IRI",
+            "desc": "Irregular structure",
+            "group": "regular_or_irregular",
+            "attr": "irregularity",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "0",
+            "name": "IRP",
+            "desc": "Plan irregularities list container",
+            "group": "plan_irregularities",
+            "attr": "irregularity",
+            "type": "",
+            "args": "{\"type\": \"filtered_atomsgroup('plan_irregularity', [])\",\n            \"args_min\": 1,\n            \"must_be_diff\": true\n            }",
+            "params": ""
+        },
+        {
+            "prog": "0",
+            "name": "IRV",
+            "desc": "Vertical irregularities list container",
+            "group": "vertical_irregularities",
+            "attr": "irregularity",
+            "type": "",
+            "args": "{\"type\": \"filtered_atomsgroup('vertical_irregularity', [])\",\n            \"args_min\": 1,\n            \"must_be_diff\": true\n            }",
+            "params": ""
+        },
+        {
+            "prog": "0",
+            "name": "TOR",
+            "desc": "Torsion eccentricity",
+            "group": "plan_irregularity",
+            "attr": "irregularity",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "100",
+            "name": "REC",
+            "desc": "Re-entrant corner",
+            "group": "plan_irregularity",
+            "attr": "irregularity",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "200",
+            "name": "IRHO",
+            "desc": "Other horizontal irregularity",
+            "group": "plan_irregularity",
+            "attr": "irregularity",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "0",
+            "name": "SOS",
+            "desc": "Soft story",
+            "group": "vertical_irregularity",
+            "attr": "irregularity",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "100",
+            "name": "CRW",
+            "desc": "Cripple wall",
+            "group": "vertical_irregularity",
+            "attr": "irregularity",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "200",
+            "name": "SHC",
+            "desc": "Short column",
+            "group": "vertical_irregularity",
+            "attr": "irregularity",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "300",
+            "name": "POP",
+            "desc": "Pounding potential",
+            "group": "vertical_irregularity",
+            "attr": "irregularity",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "400",
+            "name": "SET",
+            "desc": "Setback",
+            "group": "vertical_irregularity",
+            "attr": "irregularity",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "500",
+            "name": "CHV",
+            "desc": "Change in vertical structure (includes large overhangs)",
+            "group": "vertical_irregularity",
+            "attr": "irregularity",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "600",
+            "name": "IRVO",
+            "desc": "Other vertical irregularity",
+            "group": "vertical_irregularity",
+            "attr": "irregularity",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "0",
+            "name": "GFO",
+            "desc": "Ground floor plan fully open (no walls)",
+            "group": "ground_floor_hydrodynamics",
+            "attr": "hydrodynamics",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "100",
+            "name": "GFH",
+            "desc": "Ground floor plan partially open (i.e. with at least 50% of walls).",
+            "group": "ground_floor_hydrodynamics",
+            "attr": "hydrodynamics",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "200",
+            "name": "GFM",
+            "desc": "Not open",
+            "group": "ground_floor_hydrodynamics",
+            "attr": "hydrodynamics",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "300",
+            "name": "GFN",
+            "desc": "Not open",
+            "group": "ground_floor_hydrodynamics",
+            "attr": "hydrodynamics",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "0",
+            "name": "EWC",
+            "desc": "Concrete",
+            "group": "material_exterior_walls",
+            "attr": "ext_walls",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "100",
+            "name": "EWG",
+            "desc": "Glass",
+            "group": "material_exterior_walls",
+            "attr": "ext_walls",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "200",
+            "name": "EWE",
+            "desc": "Earth",
+            "group": "material_exterior_walls",
+            "attr": "ext_walls",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "300",
+            "name": "EWMA",
+            "desc": "Masonry",
+            "group": "material_exterior_walls",
+            "attr": "ext_walls",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "400",
+            "name": "EWME",
+            "desc": "Metal",
+            "group": "material_exterior_walls",
+            "attr": "ext_walls",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "500",
+            "name": "EWV",
+            "desc": "Vegetative",
+            "group": "material_exterior_walls",
+            "attr": "ext_walls",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "600",
+            "name": "EWW",
+            "desc": "Wood",
+            "group": "material_exterior_walls",
+            "attr": "ext_walls",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "700",
+            "name": "EWSL",
+            "desc": "Stucco finish on light framing",
+            "group": "material_exterior_walls",
+            "attr": "ext_walls",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "800",
+            "name": "EWPL",
+            "desc": "Plastic/vinyl, various",
+            "group": "material_exterior_walls",
+            "attr": "ext_walls",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "900",
+            "name": "EWCB",
+            "desc": "Cement-based boards",
+            "group": "material_exterior_walls",
+            "attr": "ext_walls",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "1000",
+            "name": "EWO",
+            "desc": "Material of exterior wall, other",
+            "group": "material_exterior_walls",
+            "attr": "ext_walls",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "0",
+            "name": "WOL",
+            "desc": "Large openings (i.e. more than 50% of the wall surface area is occupied by windows and/or doors)",
+            "group": "openings",
+            "attr": "ext_walls",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "100",
+            "name": "WOM",
+            "desc": "Moderate openings (i.e. from 20% to 50% of the wall surface area is occupied by windows and/or doors)",
+            "group": "openings",
+            "attr": "ext_walls",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "200",
+            "name": "WOS",
+            "desc": "Small openings (i.e. less than 20% of the wall surface area is occupied by windows and/or doors)",
+            "group": "openings",
+            "attr": "ext_walls",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "300",
+            "name": "WON",
+            "desc": "No openings",
+            "group": "openings",
+            "attr": "ext_walls",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "0",
+            "name": "PRO",
+            "desc": "Protected windows",
+            "group": "windows_protection",
+            "attr": "ext_walls",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "100",
+            "name": "PNO",
+            "desc": "Non protected windows",
+            "group": "windows_protection",
+            "attr": "ext_walls",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "0",
+            "name": "RSH1",
+            "desc": "Flat",
+            "group": "roof_shape",
+            "attr": "roof",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "100",
+            "name": "RSH2",
+            "desc": "Pitched with gable ends",
+            "group": "roof_shape",
+            "attr": "roof",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "200",
+            "name": "RSH3",
+            "desc": "Pitched and hipped",
+            "group": "roof_shape",
+            "attr": "roof",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "300",
+            "name": "RSH4",
+            "desc": "Pitched with dormers",
+            "group": "roof_shape",
+            "attr": "roof",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "400",
+            "name": "RSH5",
+            "desc": "Monopitch",
+            "group": "roof_shape",
+            "attr": "roof",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "500",
+            "name": "RSH6",
+            "desc": "Sawtooth",
+            "group": "roof_shape",
+            "attr": "roof",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "600",
+            "name": "RSH7",
+            "desc": " Curved",
+            "group": "roof_shape",
+            "attr": "roof",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "700",
+            "name": "RSH8",
+            "desc": "Complex regular",
+            "group": "roof_shape",
+            "attr": "roof",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "800",
+            "name": "RSH9",
+            "desc": "Complex irregular",
+            "group": "roof_shape",
+            "attr": "roof",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "900",
+            "name": "RSHO",
+            "desc": "Roof shape, other",
+            "group": "roof_shape",
+            "attr": "roof",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "0",
+            "name": "RMN",
+            "desc": "Concrete roof without additional covering",
+            "group": "roof_covering_material",
+            "attr": "roof",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "100",
+            "name": "RMT1",
+            "desc": "Clay or concrete tile",
+            "group": "roof_covering_material",
+            "attr": "roof",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "200",
+            "name": "RMT2",
+            "desc": "Fibre cement or metal tile",
+            "group": "roof_covering_material",
+            "attr": "roof",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "300",
+            "name": "RMT3",
+            "desc": "Membrane roofing",
+            "group": "roof_covering_material",
+            "attr": "roof",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "400",
+            "name": "RMT4",
+            "desc": "Slate",
+            "group": "roof_covering_material",
+            "attr": "roof",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "500",
+            "name": "RMT5",
+            "desc": "Stone slab",
+            "group": "roof_covering_material",
+            "attr": "roof",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "600",
+            "name": "RMT6",
+            "desc": "Metal or asbestos sheets",
+            "group": "roof_covering_material",
+            "attr": "roof",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "700",
+            "name": "RMT7",
+            "desc": "Wooden and asphalt shingles",
+            "group": "roof_covering_material",
+            "attr": "roof",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "800",
+            "name": "RMT8",
+            "desc": "Vegetative",
+            "group": "roof_covering_material",
+            "attr": "roof",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "900",
+            "name": "RMT9",
+            "desc": "Earthen",
+            "group": "roof_covering_material",
+            "attr": "roof",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "1000",
+            "name": "RMT10",
+            "desc": "Solar panelled roofs",
+            "group": "roof_covering_material",
+            "attr": "roof",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "1100",
+            "name": "RMT11",
+            "desc": "Tensile membrane or fabric roof",
+            "group": "roof_covering_material",
+            "attr": "roof",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "1200",
+            "name": "RMTO",
+            "desc": "Roof covering, other",
+            "group": "roof_covering_material",
+            "attr": "roof",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "0",
+            "name": "RM",
+            "desc": "Masonry",
+            "group": "roof_system_material",
+            "attr": "roof",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "100",
+            "name": "RE",
+            "desc": "Earthen",
+            "group": "roof_system_material",
+            "attr": "roof",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "200",
+            "name": "RC",
+            "desc": "Concrete",
+            "group": "roof_system_material",
+            "attr": "roof",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "300",
+            "name": "RME",
+            "desc": "Metal or steel",
+            "group": "roof_system_material",
+            "attr": "roof",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "400",
+            "name": "RWO",
+            "desc": "Wood",
+            "group": "roof_system_material",
+            "attr": "roof",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "500",
+            "name": "RFA",
+            "desc": "Fabric",
+            "group": "roof_system_material",
+            "attr": "roof",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "600",
+            "name": "RO",
+            "desc": "Roof material, other",
+            "group": "roof_system_material",
+            "attr": "roof",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "0",
+            "name": "RM1",
+            "desc": "Vaulted masonry",
+            "group": "roof_system_type",
+            "attr": "roof",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "100",
+            "name": "RM2",
+            "desc": "Shallow-arched masonry",
+            "group": "roof_system_type",
+            "attr": "roof",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "200",
+            "name": "RM3",
+            "desc": "Composite masonry and concrete roof system",
+            "group": "roof_system_type",
+            "attr": "roof",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "300",
+            "name": "RE1",
+            "desc": "Vaulted earthen roof",
+            "group": "roof_system_type",
+            "attr": "roof",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "400",
+            "name": "RC1",
+            "desc": "Cast-in-place beamless reinforced concrete roof",
+            "group": "roof_system_type",
+            "attr": "roof",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "500",
+            "name": "RC2",
+            "desc": "Cast-in-place  beam-supported reinforced concrete roof",
+            "group": "roof_system_type",
+            "attr": "roof",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "600",
+            "name": "RC3",
+            "desc": "Precast concrete roof with reinforced concrete topping",
+            "group": "roof_system_type",
+            "attr": "roof",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "700",
+            "name": "RC4",
+            "desc": "Precast concrete roof without reinforced concrete topping",
+            "group": "roof_system_type",
+            "attr": "roof",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "800",
+            "name": "RME1",
+            "desc": "Metal or steel beams or trusses supporting light roofing",
+            "group": "roof_system_type",
+            "attr": "roof",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "900",
+            "name": "RME2",
+            "desc": "Metal or steel beams supporting precast concrete slabs",
+            "group": "roof_system_type",
+            "attr": "roof",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "1000",
+            "name": "RME3",
+            "desc": "Composite steel deck and concrete slab",
+            "group": "roof_system_type",
+            "attr": "roof",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "1100",
+            "name": "RWO1",
+            "desc": "Wooden structurewith light roof covering",
+            "group": "roof_system_type",
+            "attr": "roof",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "1200",
+            "name": "RWO2",
+            "desc": "Wooden beams or trusses with  heavy roof covering",
+            "group": "roof_system_type",
+            "attr": "roof",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "1300",
+            "name": "RWO3",
+            "desc": "Wood-based sheets on rafters or purlins",
+            "group": "roof_system_type",
+            "attr": "roof",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "1400",
+            "name": "RWO4",
+            "desc": "Plywood panels or other light-weight panels for roof",
+            "group": "roof_system_type",
+            "attr": "roof",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "1500",
+            "name": "RWO5",
+            "desc": "Bamboo, straw or thatch roof",
+            "group": "roof_system_type",
+            "attr": "roof",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "1600",
+            "name": "RFA1",
+            "desc": "Inflatable or tensile membrane roof",
+            "group": "roof_system_type",
+            "attr": "roof",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "1700",
+            "name": "RFAO",
+            "desc": "Fabric, other",
+            "group": "roof_system_type",
+            "attr": "roof",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "0",
+            "name": "RWCN",
+            "desc": "Roof-wall diaphragm connection not provided",
+            "group": "roof_connections",
+            "attr": "roof",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "100",
+            "name": "RWCP",
+            "desc": "Roof-wall diaphragm connection present (the connection  transfers in-plane forces from floor to wall and restrains wall outward displacements)",
+            "group": "roof_connections",
+            "attr": "roof",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "200",
+            "name": "RTDN",
+            "desc": "Roof tie-down not provided",
+            "group": "roof_connections",
+            "attr": "roof",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "300",
+            "name": "RTDP",
+            "desc": "Roof tie-down present (a connection that provides vertical attachment of roof to wall in order to restrain roof from upward displacement, lift-off due to wind)",
+            "group": "roof_connections",
+            "attr": "roof",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "0",
+            "name": "FN",
+            "desc": "No elevated or suspended floor material (single-storey building)",
+            "group": "floor_system_material",
+            "attr": "floor",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "100",
+            "name": "FM",
+            "desc": "Masonry",
+            "group": "floor_system_material",
+            "attr": "floor",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "200",
+            "name": "FE",
+            "desc": "Earthen",
+            "group": "floor_system_material",
+            "attr": "floor",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "300",
+            "name": "FC",
+            "desc": "Concrete",
+            "group": "floor_system_material",
+            "attr": "floor",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "400",
+            "name": "FME",
+            "desc": "Metal",
+            "group": "floor_system_material",
+            "attr": "floor",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "500",
+            "name": "FW",
+            "desc": "Wood",
+            "group": "floor_system_material",
+            "attr": "floor",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "600",
+            "name": "FO",
+            "desc": "Floor material, other",
+            "group": "floor_system_material",
+            "attr": "floor",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "0",
+            "name": "FM1",
+            "desc": "Vaulted masonry",
+            "group": "floor_system_type",
+            "attr": "floor",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "100",
+            "name": "FM2",
+            "desc": "Shallow-arched masonry",
+            "group": "floor_system_type",
+            "attr": "floor",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "200",
+            "name": "FM3",
+            "desc": "Composite cast-in-place reinforced concrete and masonry floor system",
+            "group": "floor_system_type",
+            "attr": "floor",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "300",
+            "name": "FC1",
+            "desc": "Cast-in-place beamless reinforced concrete floor",
+            "group": "floor_system_type",
+            "attr": "floor",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "400",
+            "name": "FC2",
+            "desc": "Cast-in-place  beam-supported reinforced concrete floor",
+            "group": "floor_system_type",
+            "attr": "floor",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "500",
+            "name": "FC3",
+            "desc": "Precast concrete floor with reinforced concrete topping",
+            "group": "floor_system_type",
+            "attr": "floor",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "600",
+            "name": "FC4",
+            "desc": "Precast concrete floor without reinforced concrete topping",
+            "group": "floor_system_type",
+            "attr": "floor",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "700",
+            "name": "FME1",
+            "desc": "Metal beams, trusses, or joists supporting light flooring",
+            "group": "floor_system_type",
+            "attr": "floor",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "800",
+            "name": "FME2",
+            "desc": "Metal beams supporting precast concrete slabs",
+            "group": "floor_system_type",
+            "attr": "floor",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "900",
+            "name": "FME3",
+            "desc": "Composite steel deck and concrete slab",
+            "group": "floor_system_type",
+            "attr": "floor",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "1000",
+            "name": "FW1",
+            "desc": "Wooden beams or trusses and joists supporting light flooring",
+            "group": "floor_system_type",
+            "attr": "floor",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "1100",
+            "name": "FW2",
+            "desc": "Wooden beams or trusses and joists supporting heavy flooring",
+            "group": "floor_system_type",
+            "attr": "floor",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "1200",
+            "name": "FW3",
+            "desc": "Wood-based sheets on joists or beams",
+            "group": "floor_system_type",
+            "attr": "floor",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "1300",
+            "name": "FW4",
+            "desc": "Plywood panels or other light-weight panels for floor",
+            "group": "floor_system_type",
+            "attr": "floor",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "0",
+            "name": "FWCN",
+            "desc": "Floor-wall diaphragm connection not provided",
+            "group": "floor_connections",
+            "attr": "floor",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "100",
+            "name": "FWCP",
+            "desc": "Floor-wall diaphragm connection present (the role of the connection is to restrain wall out-of-plane forces and to transfer in-plane forces to wall)",
+            "group": "floor_connections",
+            "attr": "floor",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "0",
+            "name": "FOSSL",
+            "desc": "Shallow foundation, with lateral capacity",
+            "group": "foundation_system",
+            "attr": "foundation",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "100",
+            "name": "FOSN",
+            "desc": "Shallow foundation, no lateral capacity",
+            "group": "foundation_system",
+            "attr": "foundation",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "200",
+            "name": "FOSDL",
+            "desc": "Deep foundation, with lateral capacity",
+            "group": "foundation_system",
+            "attr": "foundation",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "300",
+            "name": "FOSDN",
+            "desc": "Deep foundation, no lateral capacity",
+            "group": "foundation_system",
+            "attr": "foundation",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "400",
+            "name": "FOSO",
+            "desc": "Foundation, other",
+            "group": "foundation_system",
+            "attr": "foundation",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "0",
+            "name": "FIP",
+            "desc": "Fire insulation, presence",
+            "group": "fire_protection",
+            "attr": "fire_prot",
+            "type": "",
+            "args": "",
+            "params": ""
+        },
+        {
+            "prog": "100",
+            "name": "FIN",
+            "desc": "Fire protection, non presence",
+            "group": "fire_protection",
+            "attr": "fire_prot",
+            "type": "",
+            "args": "",
+            "params": ""
+        }
+    ],
+    "Param": {
+        "RES": [
+            {
+                "atom": "RES",
+                "name": "1",
+                "desc": "Single dwelling",
+                "prog": "100"
+            },
+            {
+                "atom": "RES",
+                "name": "2",
+                "desc": "Multi-unit, unknown type",
+                "prog": "200"
+            },
+            {
+                "atom": "RES",
+                "name": "2A",
+                "desc": "2 Units (duplex)",
+                "prog": "300"
+            },
+            {
+                "atom": "RES",
+                "name": "2B",
+                "desc": "3-4 Units",
+                "prog": "400"
+            },
+            {
+                "atom": "RES",
+                "name": "2C",
+                "desc": "5-9 Units",
+                "prog": "500"
+            },
+            {
+                "atom": "RES",
+                "name": "2D",
+                "desc": "10-19 Units",
+                "prog": "600"
+            },
+            {
+                "atom": "RES",
+                "name": "2E",
+                "desc": "20-49 Units",
+                "prog": "700"
+            },
+            {
+                "atom": "RES",
+                "name": "2F",
+                "desc": "50+ Units",
+                "prog": "800"
+            },
+            {
+                "atom": "RES",
+                "name": "3",
+                "desc": "Temporary lodging",
+                "prog": "900"
+            },
+            {
+                "atom": "RES",
+                "name": "4",
+                "desc": "Institutional housing",
+                "prog": "1000"
+            },
+            {
+                "atom": "RES",
+                "name": "5",
+                "desc": "Mobile home",
+                "prog": "1100"
+            }
+        ],
+        "COM": [
+            {
+                "atom": "COM",
+                "name": "1",
+                "desc": "Retail trade",
+                "prog": "1300"
+            },
+            {
+                "atom": "COM",
+                "name": "2",
+                "desc": "Wholesale trade and storage (warehouse)",
+                "prog": "1400"
+            },
+            {
+                "atom": "COM",
+                "name": "3",
+                "desc": "Offices, professional/technical services",
+                "prog": "1500"
+            },
+            {
+                "atom": "COM",
+                "name": "3A",
+                "desc": "Financial and insurance activities",
+                "prog": "1600"
+            },
+            {
+                "atom": "COM",
+                "name": "3B",
+                "desc": "Personal and Repair Services",
+                "prog": "1700"
+            },
+            {
+                "atom": "COM",
+                "name": "3C",
+                "desc": "Hotels and motels",
+                "prog": "1800"
+            },
+            {
+                "atom": "COM",
+                "name": "4",
+                "desc": "Covered parking garage",
+                "prog": "1900"
+            },
+            {
+                "atom": "COM",
+                "name": "5",
+                "desc": "Entertainment and recreation",
+                "prog": "2000"
+            },
+            {
+                "atom": "COM",
+                "name": "5A",
+                "desc": "Entertainment",
+                "prog": "2100"
+            },
+            {
+                "atom": "COM",
+                "name": "5B",
+                "desc": "Recreation",
+                "prog": "2200"
+            },
+            {
+                "atom": "COM",
+                "name": "5C",
+                "desc": "Religious gathering",
+                "prog": "2300"
+            },
+            {
+                "atom": "COM",
+                "name": "5D",
+                "desc": "Arena",
+                "prog": "2400"
+            },
+            {
+                "atom": "COM",
+                "name": "5E",
+                "desc": "Cinema, auditoriums or concert hall",
+                "prog": "2500"
+            }
+        ],
+        "IND": [
+            {
+                "atom": "IND",
+                "name": "1",
+                "desc": "Heavy Industry Factories",
+                "prog": "2800"
+            },
+            {
+                "atom": "IND",
+                "name": "2",
+                "desc": "Light Industry Factories",
+                "prog": "2900"
+            },
+            {
+                "atom": "IND",
+                "name": "3",
+                "desc": "Food/Drugs/Chemicals Factories",
+                "prog": "3000"
+            },
+            {
+                "atom": "IND",
+                "name": "4",
+                "desc": "Metals/Minerals Processing Factories",
+                "prog": "3100"
+            },
+            {
+                "atom": "IND",
+                "name": "5",
+                "desc": "High Technology Labs/Factories",
+                "prog": "3200"
+            },
+            {
+                "atom": "IND",
+                "name": "6",
+                "desc": "Construction Offices",
+                "prog": "3300"
+            }
+        ],
+        "AGR": [
+            {
+                "atom": "AGR",
+                "name": "1",
+                "desc": "Produce storage",
+                "prog": "3500"
+            },
+            {
+                "atom": "AGR",
+                "name": "2",
+                "desc": "Animal shelter",
+                "prog": "3600"
+            },
+            {
+                "atom": "AGR",
+                "name": "3",
+                "desc": "Agricultural processing",
+                "prog": "3700"
+            }
+        ],
+        "GOV": [
+            {
+                "atom": "GOV",
+                "name": "1",
+                "desc": "Government, general services",
+                "prog": "3900"
+            },
+            {
+                "atom": "GOV",
+                "name": "2",
+                "desc": "Government, emergency response",
+                "prog": "4000"
+            },
+            {
+                "atom": "GOV",
+                "name": "2A",
+                "desc": "Government, police station",
+                "prog": "4100"
+            },
+            {
+                "atom": "GOV",
+                "name": "2B",
+                "desc": "Government, fire station",
+                "prog": "4200"
+            },
+            {
+                "atom": "GOV",
+                "name": "2C",
+                "desc": "Government, emergency operation center",
+                "prog": "4300"
+            }
+        ],
+        "EDU": [
+            {
+                "atom": "EDU",
+                "name": "1",
+                "desc": "Pre-school facility",
+                "prog": "4500"
+            },
+            {
+                "atom": "EDU",
+                "name": "1A",
+                "desc": "Day care center",
+                "prog": "4600"
+            },
+            {
+                "atom": "EDU",
+                "name": "1B",
+                "desc": "Pre-school / Kindergarten",
+                "prog": "4700"
+            },
+            {
+                "atom": "EDU",
+                "name": "2",
+                "desc": "School",
+                "prog": "4800"
+            },
+            {
+                "atom": "EDU",
+                "name": "2A",
+                "desc": "Elementary/Primary school",
+                "prog": "4900"
+            },
+            {
+                "atom": "EDU",
+                "name": "2B",
+                "desc": "Middle School",
+                "prog": "5000"
+            },
+            {
+                "atom": "EDU",
+                "name": "2C",
+                "desc": "High/Secondary School",
+                "prog": "5100"
+            },
+            {
+                "atom": "EDU",
+                "name": "3",
+                "desc": "College/university, offices and/or classrooms",
+                "prog": "5200"
+            },
+            {
+                "atom": "EDU",
+                "name": "4",
+                "desc": "College/university, research facilities and/or labs",
+                "prog": "5300"
+            },
+            {
+                "atom": "EDU",
+                "name": "5",
+                "desc": "Other schools",
+                "prog": "5400"
+            }
+        ],
+        "HEA": [
+            {
+                "atom": "HEA",
+                "name": "1",
+                "desc": "Hospital",
+                "prog": "5600"
+            },
+            {
+                "atom": "HEA",
+                "name": "1A",
+                "desc": "Primary Level Hospital",
+                "prog": "5700"
+            },
+            {
+                "atom": "HEA",
+                "name": "B",
+                "desc": "Secondary Level Hospital",
+                "prog": "5800"
+            },
+            {
+                "atom": "HEA",
+                "name": "C",
+                "desc": "Tertiary Level Hospital",
+                "prog": "5900"
+            },
+            {
+                "atom": "HEA",
+                "name": "2",
+                "desc": "Clinic",
+                "prog": "6000"
+            },
+            {
+                "atom": "HEA",
+                "name": "3",
+                "desc": "Basic Health Unit",
+                "prog": "6100"
+            },
+            {
+                "atom": "HEA",
+                "name": "4",
+                "desc": "Specialty Center",
+                "prog": "6200"
+            },
+            {
+                "atom": "HEA",
+                "name": "5",
+                "desc": "Health Post",
+                "prog": "6300"
+            },
+            {
+                "atom": "HEA",
+                "name": "6",
+                "desc": "Rehabilitation Center",
+                "prog": "6400"
+            },
+            {
+                "atom": "HEA",
+                "name": "7",
+                "desc": "Other healthcare facilities",
+                "prog": "6500"
+            }
+        ],
+        "TRT": [
+            {
+                "atom": "TRT",
+                "name": "1",
+                "desc": "Bus station",
+                "prog": "6700"
+            },
+            {
+                "atom": "TRT",
+                "name": "2",
+                "desc": "Railway station",
+                "prog": "6800"
+            },
+            {
+                "atom": "TRT",
+                "name": "3",
+                "desc": "Airport",
+                "prog": "6900"
+            }
+        ]
+    },
+    "AtomsDeps": {
+        "CIP": [
+            "CU",
+            "CR",
+            "SRC"
+        ],
+        "PC": [
+            "CU",
+            "CR",
+            "SRC"
+        ],
+        "CIPPS": [
+            "CR",
+            "SRC"
+        ],
+        "PCPS": [
+            "CR",
+            "SRC"
+        ],
+        "SL": [
+            "S"
+        ],
+        "SR": [
+            "S"
+        ],
+        "SO": [
+            "S"
+        ],
+        "MEIR": [
+            "ME"
+        ],
+        "MEO": [
+            "ME"
+        ],
+        "ADO": [
+            "M",
+            "MUR",
+            "MCF",
+            "MR"
+        ],
+        "ST": [
+            "M",
+            "MUR",
+            "MCF",
+            "MR"
+        ],
+        "STRUB": [
+            "M",
+            "MUR",
+            "MCF",
+            "MR"
+        ],
+        "STDRE": [
+            "M",
+            "MUR",
+            "MCF",
+            "MR"
+        ],
+        "CL": [
+            "M",
+            "MUR",
+            "MCF",
+            "MR"
+        ],
+        "CLBRS": [
+            "M",
+            "MUR",
+            "MCF",
+            "MR"
+        ],
+        "CLBRH": [
+            "M",
+            "MUR",
+            "MCF",
+            "MR"
+        ],
+        "CLBLH": [
+            "M",
+            "MUR",
+            "MCF",
+            "MR"
+        ],
+        "CB": [
+            "M",
+            "MUR",
+            "MCF",
+            "MR"
+        ],
+        "CBS": [
+            "M",
+            "MUR",
+            "MCF",
+            "MR"
+        ],
+        "CBH": [
+            "M",
+            "MUR",
+            "MCF",
+            "MR"
+        ],
+        "MO": [
+            "M",
+            "MUR",
+            "MCF",
+            "MR"
+        ],
+        "ETR": [
+            "E",
+            "EU",
+            "ER"
+        ],
+        "ETC": [
+            "E",
+            "EU",
+            "ER"
+        ],
+        "ETO": [
+            "E",
+            "EU",
+            "ER"
+        ],
+        "WHE": [
+            "W"
+        ],
+        "WLI": [
+            "W"
+        ],
+        "WS": [
+            "W"
+        ],
+        "WWD": [
+            "W"
+        ],
+        "WBB": [
+            "W"
+        ],
+        "WO": [
+            "W"
+        ],
+        "MON": [
+            "M",
+            "MUR",
+            "MCF",
+            "MR"
+        ],
+        "MOM": [
+            "M",
+            "MUR",
+            "MCF",
+            "MR"
+        ],
+        "MOL": [
+            "M",
+            "MUR",
+            "MCF",
+            "MR"
+        ],
+        "MOC": [
+            "M",
+            "MUR",
+            "MCF",
+            "MR"
+        ],
+        "MOCL": [
+            "M",
+            "MUR",
+            "MCF",
+            "MR"
+        ],
+        "SPLI": [
+            "ST",
+            "STRUB",
+            "STDRE"
+        ],
+        "SPSA": [
+            "ST",
+            "STRUB",
+            "STDRE"
+        ],
+        "SPTU": [
+            "ST",
+            "STRUB",
+            "STDRE"
+        ],
+        "SPSL": [
+            "ST",
+            "STRUB",
+            "STDRE"
+        ],
+        "SPGR": [
+            "ST",
+            "STRUB",
+            "STDRE"
+        ],
+        "SPBA": [
+            "ST",
+            "STRUB",
+            "STDRE"
+        ],
+        "SPO": [
+            "ST",
+            "STRUB",
+            "STDRE"
+        ],
+        "RS": [
+            "MR"
+        ],
+        "RW": [
+            "MR"
+        ],
+        "RB": [
+            "MR"
+        ],
+        "RCM": [
+            "MR"
+        ],
+        "RCB": [
+            "MR"
+        ],
+        "WEL": [
+            "S"
+        ],
+        "RIV": [
+            "S"
+        ],
+        "BOL": [
+            "S"
+        ],
+        "DCW": [
+            "LFM",
+            "LFINF",
+            "LFBR",
+            "LPB",
+            "LWAL",
+            "LDUAL",
+            "LFLS",
+            "LFLSINF"
+        ],
+        "IRP": [
+            "IRI"
+        ],
+        "IRV": [
+            "IRI"
+        ],
+        "TOR": [
+            "_ARG"
+        ],
+        "REC": [
+            "_ARG"
+        ],
+        "IRHO": [
+            "_ARG"
+        ],
+        "SOS": [
+            "_ARG"
+        ],
+        "CRW": [
+            "_ARG"
+        ],
+        "SHC": [
+            "_ARG"
+        ],
+        "POP": [
+            "_ARG"
+        ],
+        "SET": [
+            "_ARG"
+        ],
+        "CHV": [
+            "_ARG"
+        ],
+        "IRVO": [
+            "_ARG"
+        ],
+        "PRO": [
+            "WOL",
+            "WOM",
+            "WOS"
+        ],
+        "PNO": [
+            "WOL",
+            "WOM",
+            "WOS"
+        ],
+        "RM1": [
+            "RM"
+        ],
+        "RM2": [
+            "RM"
+        ],
+        "RM3": [
+            "RM"
+        ],
+        "RE1": [
+            "RE"
+        ],
+        "RC1": [
+            "RC"
+        ],
+        "RC2": [
+            "RC"
+        ],
+        "RC3": [
+            "RC"
+        ],
+        "RC4": [
+            "RC"
+        ],
+        "RME1": [
+            "RME"
+        ],
+        "RME2": [
+            "RME"
+        ],
+        "RME3": [
+            "RME"
+        ],
+        "RWO1": [
+            "RWO"
+        ],
+        "RWO2": [
+            "RWO"
+        ],
+        "RWO3": [
+            "RWO"
+        ],
+        "RWO4": [
+            "RWO"
+        ],
+        "RWO5": [
+            "RWO"
+        ],
+        "RFA1": [
+            "RFA"
+        ],
+        "RFAO": [
+            "RFA"
+        ],
+        "FM1": [
+            "FM"
+        ],
+        "FM2": [
+            "FM"
+        ],
+        "FM3": [
+            "FM"
+        ],
+        "FC1": [
+            "FC"
+        ],
+        "FC2": [
+            "FC"
+        ],
+        "FC3": [
+            "FC"
+        ],
+        "FC4": [
+            "FC"
+        ],
+        "FME1": [
+            "FME"
+        ],
+        "FME2": [
+            "FME"
+        ],
+        "FME3": [
+            "FME"
+        ],
+        "FW1": [
+            "FW"
+        ],
+        "FW2": [
+            "FW"
+        ],
+        "FW3": [
+            "FW"
+        ],
+        "FW4": [
+            "FW"
+        ]
+    },
+    "AtomType": {}
+}

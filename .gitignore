@@ -1,0 +1,5 @@
+/venv/
+/dist/
+/egg_dir/
+__pycache__
+*~

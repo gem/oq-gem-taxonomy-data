@@ -1,0 +1,57 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "openquake.gem-taxonomy-data"
+version = "0.1.0"
+# dependencies = [
+#   "oq-gem-taxonomy-data",
+# ]
+requires-python = ">=3"
+authors = [
+  {name = "Matteo Nastasi", email = "nastasi@openquake.org"},
+]
+maintainers = [
+  {name = "Matteo Nastasi", email = "nastasi@openquake.org"},
+]
+description = "Openquake Gem Taxonomy Data - taxonomy data and python classes to access it."
+readme = "README.md"
+license = {file = "LICENSE.txt"}
+keywords = ["GEM", "taxonomy", "standard", "openquake"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Programming Language :: Python"
+]
+
+[tool.setuptools]
+include-package-data = false
+
+[tool.setuptools.packages.find]
+include = ['openquake*']
+
+[tool.setuptools.package-data]
+"openquake.gem_taxonomy_data.data" = ["*.json"]
+
+[tool.distutils.egg_info]
+egg_base = "egg_dir"
+
+[project.optional-dependencies]
+cli = [
+]
+
+[project.urls]
+# Homepage = "https://example.com"
+# Documentation = "https://readthedocs.org"
+Repository = "https://github.com/gem/oq-gem-taxonomy-data"
+"Bug Tracker" = "https://github.com/gem/oq-gem-taxonomy-data/issues"
+# Changelog = "https://github.com/me/spam/blob/master/CHANGELOG.md"
+
+# [project.scripts]
+# spam-cli = "spam:main_cli"
+
+# [project.gui-scripts]
+# spam-gui = "spam:main_gui"
+
+# [project.entry-points."spam.magical"]
+# tomatoes = "spam:main_tomatoes"

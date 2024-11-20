@@ -39,7 +39,7 @@ version = {attr = "openquake.gem_taxonomy_data.__version__"}
 "openquake.gem_taxonomy_data.data" = ["*.json"]
 
 [tool.distutils.egg_info]
-egg_base = "egg_dir"
+egg_base = ".egg_dir"
 
 [project.optional-dependencies]
 cli = [

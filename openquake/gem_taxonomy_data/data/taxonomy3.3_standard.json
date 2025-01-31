@@ -1349,7 +1349,7 @@
         {
             "prog": "0",
             "name": "H",
-            "title": "Number of storeys above ground.",
+            "title": "Number of storeys above ground",
             "desc": "H:n, exact number of storeys above ground.\nH:a-b, range of storeys above ground.\nH:<n, n upper limit of number of storeys above ground (with n excluded).\nH:>n, n lower limit of number of storeys above ground (with n excluded).",
             "group": "number_of_storeys",
             "attr": "height",
@@ -1360,7 +1360,7 @@
         {
             "prog": "100",
             "name": "HAPP",
-            "title": "Approximate number of storeys above ground.",
+            "title": "Approximate number of storeys above ground",
             "desc": "HAPP:n",
             "group": "number_of_storeys",
             "attr": "height",
@@ -1371,8 +1371,8 @@
         {
             "prog": "0",
             "name": "HHT",
-            "title": "Total height of the structure, measured from the ground floor. Float specifying the height of the structures in meters. (HHT>= 1)",
-            "desc": "HHT:n",
+            "title": "Total height of the structure, measured from the ground floor.",
+            "desc": "Total height of the structure, measured from the ground floor. Float specifying the height of the structures in meters. (HHT>= 1)\nHHT:n",
             "group": "height_structure_m",
             "attr": "height",
             "type": "",
@@ -1382,8 +1382,8 @@
         {
             "prog": "100",
             "name": "HHI",
-            "title": "Inter-storey height (average). Float specifying the average floor height in meters. (HHI>= 1)",
-            "desc": "HHI:n",
+            "title": "Inter-storey height (average)",
+            "desc": " Float specifying the average floor height in meters. (HHI>= 1)\nHHI:n",
             "group": "height_structure_m",
             "attr": "height",
             "type": "",
@@ -1393,8 +1393,8 @@
         {
             "prog": "0",
             "name": "HB",
-            "title": "Number of storeys below ground (same as number of basements)",
-            "desc": "HB:n, exact number of storeys below ground.\nHB:a-b, range of storeys below ground.\nHB:<n, n upper limit of number of storeys below ground (with n excluded).\nHB:>n, n lower limit of number of storeys below ground (with n excluded).",
+            "title": "Number of storeys below ground",
+            "desc": "Number of storeys below ground (same as number of basements).\nHB:n, exact number of storeys below ground.\nHB:a-b, range of storeys below ground.\nHB:<n, n upper limit of number of storeys below ground (with n excluded).\nHB:>n, n lower limit of number of storeys below ground (with n excluded).",
             "group": "number_storeys_below",
             "attr": "height",
             "type": "",
@@ -1437,8 +1437,8 @@
         {
             "prog": "0",
             "name": "HD",
-            "title": "Slope of the ground (n=float in degrees).",
-            "desc": "HD:n",
+            "title": "Slope of the ground",
+            "desc": "Slope of the ground (n=float in degrees).\nHD:n",
             "group": "slope_the_ground",
             "attr": "height",
             "type": "",
@@ -5339,7 +5339,7 @@
         "H": {
             "prog": "0",
             "name": "H",
-            "title": "Number of storeys above ground.",
+            "title": "Number of storeys above ground",
             "desc": "H:n, exact number of storeys above ground.\nH:a-b, range of storeys above ground.\nH:<n, n upper limit of number of storeys above ground (with n excluded).\nH:>n, n lower limit of number of storeys above ground (with n excluded).",
             "group": "number_of_storeys",
             "attr": "height",
@@ -5350,7 +5350,7 @@
         "HAPP": {
             "prog": "100",
             "name": "HAPP",
-            "title": "Approximate number of storeys above ground.",
+            "title": "Approximate number of storeys above ground",
             "desc": "HAPP:n",
             "group": "number_of_storeys",
             "attr": "height",
@@ -5361,8 +5361,8 @@
         "HHT": {
             "prog": "0",
             "name": "HHT",
-            "title": "Total height of the structure, measured from the ground floor. Float specifying the height of the structures in meters. (HHT>= 1)",
-            "desc": "HHT:n",
+            "title": "Total height of the structure, measured from the ground floor.",
+            "desc": "Total height of the structure, measured from the ground floor. Float specifying the height of the structures in meters. (HHT>= 1)\nHHT:n",
             "group": "height_structure_m",
             "attr": "height",
             "type": "",
@@ -5372,8 +5372,8 @@
         "HHI": {
             "prog": "100",
             "name": "HHI",
-            "title": "Inter-storey height (average). Float specifying the average floor height in meters. (HHI>= 1)",
-            "desc": "HHI:n",
+            "title": "Inter-storey height (average)",
+            "desc": " Float specifying the average floor height in meters. (HHI>= 1)\nHHI:n",
             "group": "height_structure_m",
             "attr": "height",
             "type": "",
@@ -5383,8 +5383,8 @@
         "HB": {
             "prog": "0",
             "name": "HB",
-            "title": "Number of storeys below ground (same as number of basements)",
-            "desc": "HB:n, exact number of storeys below ground.\nHB:a-b, range of storeys below ground.\nHB:<n, n upper limit of number of storeys below ground (with n excluded).\nHB:>n, n lower limit of number of storeys below ground (with n excluded).",
+            "title": "Number of storeys below ground",
+            "desc": "Number of storeys below ground (same as number of basements).\nHB:n, exact number of storeys below ground.\nHB:a-b, range of storeys below ground.\nHB:<n, n upper limit of number of storeys below ground (with n excluded).\nHB:>n, n lower limit of number of storeys below ground (with n excluded).",
             "group": "number_storeys_below",
             "attr": "height",
             "type": "",
@@ -5427,8 +5427,8 @@
         "HD": {
             "prog": "0",
             "name": "HD",
-            "title": "Slope of the ground (n=float in degrees).",
-            "desc": "HD:n",
+            "title": "Slope of the ground",
+            "desc": "Slope of the ground (n=float in degrees).\nHD:n",
             "group": "slope_the_ground",
             "attr": "height",
             "type": "",

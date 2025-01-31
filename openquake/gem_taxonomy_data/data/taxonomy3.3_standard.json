@@ -1344,7 +1344,7 @@
             "attr": "llrs",
             "type": "",
             "args": "",
-            "params": "{\"type\": \"float\",\n            \"min\": 0,\n            \"min_incl\": true,\n            \"max\": 1,\n            \"max_incl\": true,\n            \"params_min\": 1,\n            \"params_max\": 1\n            }"
+            "params": "{\"type\": \"float\",\n            \"min\": 0,\n            \"min_incl\": true,\n            \"max\": 1,\n            \"max_incl\": true,\n            \"params_min\": 1,\n            \"params_max\": 1,\n            \"unit_measure\": [\"ratio\", \"ratio\"]\n            }"
         },
         {
             "prog": "0",
@@ -1355,7 +1355,7 @@
             "attr": "height",
             "type": "",
             "args": "",
-            "params": "{\n            \"type\": \"rangeable_int\",\n            \"min\": 0,\n            \"min_incl\": true,\n            \"params_min\": 1,\n            \"params_max\": 1\n}"
+            "params": "{\n            \"type\": \"rangeable_int\",\n            \"min\": 0,\n            \"min_incl\": true,\n            \"params_min\": 1,\n            \"params_max\": 1,\n            \"unit_measure\": [\"storey\", \"storeys\"]\n}"
         },
         {
             "prog": "100",
@@ -1366,7 +1366,7 @@
             "attr": "height",
             "type": "",
             "args": "",
-            "params": "{\n            \"type\": \"int\",\n            \"min\": 0,\n            \"min_incl\": true,\n            \"params_min\": 1,\n            \"params_max\": 1\n}"
+            "params": "{\n            \"type\": \"int\",\n            \"min\": 0,\n            \"min_incl\": true,\n            \"params_min\": 1,\n            \"params_max\": 1,\n            \"unit_measure\": [\"storey\", \"storeys\"]\n}"
         },
         {
             "prog": "0",
@@ -1377,7 +1377,7 @@
             "attr": "height",
             "type": "",
             "args": "",
-            "params": "{\n            \"type\": \"float\",\n            \"min\": 1,\n            \"min_incl\": true,\n            \"params_min\": 1,\n            \"params_max\": 1\n}"
+            "params": "{\n            \"type\": \"float\",\n            \"min\": 1,\n            \"min_incl\": true,\n            \"params_min\": 1,\n            \"params_max\": 1,\n            \"unit_measure\": [\"meter\", \"meters\"]\n}"
         },
         {
             "prog": "100",
@@ -1388,7 +1388,7 @@
             "attr": "height",
             "type": "",
             "args": "",
-            "params": "{\n            \"type\": \"float\",\n            \"min\": 1,\n            \"min_incl\": true,\n            \"params_min\": 1,\n            \"params_max\": 1\n}"
+            "params": "{\n            \"type\": \"float\",\n            \"min\": 1,\n            \"min_incl\": true,\n            \"params_min\": 1,\n            \"params_max\": 1,\n            \"unit_measure\": [\"meter\", \"meters\"]\n}"
         },
         {
             "prog": "0",
@@ -1399,7 +1399,7 @@
             "attr": "height",
             "type": "",
             "args": "",
-            "params": "{\n            \"type\": \"rangeable_int\",\n            \"min\": 0,\n            \"min_incl\": true,\n            \"params_min\": 1,\n            \"params_max\": 1\n}"
+            "params": "{\n            \"type\": \"rangeable_int\",\n            \"min\": 0,\n            \"min_incl\": true,\n            \"params_min\": 1,\n            \"params_max\": 1,\n            \"unit_measure\": [\"storey\", \"storeys\"]\n}"
         },
         {
             "prog": "100",
@@ -1410,7 +1410,7 @@
             "attr": "height",
             "type": "",
             "args": "",
-            "params": "{\n            \"type\": \"int\",\n            \"min\": 0,\n            \"min_incl\": true,\n            \"params_min\": 1,\n            \"params_max\": 1\n}"
+            "params": "{\n            \"type\": \"int\",\n            \"min\": 0,\n            \"min_incl\": true,\n            \"params_min\": 1,\n            \"params_max\": 1,\n            \"unit_measure\": [\"storey\", \"storeys\"]\n}"
         },
         {
             "prog": "0",
@@ -1421,7 +1421,7 @@
             "attr": "height",
             "type": "",
             "args": "",
-            "params": "{\n            \"type\": \"rangeable_float\",\n            \"min\": 0,\n            \"min_incl\": true,\n            \"params_min\": 1,\n            \"params_max\": 1\n}"
+            "params": "{\n            \"type\": \"rangeable_float\",\n            \"min\": 0,\n            \"min_incl\": true,\n            \"params_min\": 1,\n            \"params_max\": 1,\n            \"unit_measure\": [\"meter\", \"meters\"]\n}"
         },
         {
             "prog": "100",
@@ -1432,7 +1432,7 @@
             "attr": "height",
             "type": "",
             "args": "",
-            "params": "{\n            \"type\": \"float\",\n            \"min\": 0,\n            \"min_incl\": true,\n            \"params_min\": 1,\n            \"params_max\": 1\n}"
+            "params": "{\n            \"type\": \"float\",\n            \"min\": 0,\n            \"min_incl\": true,\n            \"params_min\": 1,\n            \"params_max\": 1,\n            \"unit_measure\": [\"meter\", \"meters\"]\n}"
         },
         {
             "prog": "0",
@@ -1443,7 +1443,7 @@
             "attr": "height",
             "type": "",
             "args": "",
-            "params": "{\n            \"type\": \"float\",\n            \"min\": 0,\n            \"min_incl\": true,\n            \"max\": 90,\n            \"max_incl\": false,\n            \"params_min\": 1,\n            \"params_max\": 1\n}"
+            "params": "{\n            \"type\": \"float\",\n            \"min\": 0,\n            \"min_incl\": true,\n            \"max\": 90,\n            \"max_incl\": false,\n            \"params_min\": 1,\n            \"params_max\": 1,\n            \"unit_measure\": [\"degree\", \"degrees\"]\n}"
         },
         {
             "prog": "0",
@@ -1454,10 +1454,10 @@
             "attr": "dates",
             "type": "",
             "args": "",
-            "params": "{\n            \"type\": \"rangeable_int\",\n            \"params_min\": 1,\n            \"params_max\": 1\n}"
+            "params": "{\n            \"type\": \"rangeable_int\",\n            \"params_min\": 1,\n            \"params_max\": 1,\n            \"unit_measure\": [\"year\", \"years\"]\n}"
         },
         {
-            "prog": "200",
+            "prog": "100",
             "name": "YAPP",
             "title": "Approximate date of construction or retrofit",
             "desc": "",
@@ -1465,7 +1465,7 @@
             "attr": "dates",
             "type": "",
             "args": "",
-            "params": "{\n            \"type\": \"int\",\n            \"params_min\": 1,\n            \"params_max\": 1\n}"
+            "params": "{\n            \"type\": \"int\",\n            \"params_min\": 1,\n            \"params_max\": 1,\n            \"unit_measure\": [\"year\", \"years\"]\n}"
         },
         {
             "prog": "0",
@@ -5334,7 +5334,7 @@
             "attr": "llrs",
             "type": "",
             "args": "",
-            "params": "{\"type\": \"float\",\n            \"min\": 0,\n            \"min_incl\": true,\n            \"max\": 1,\n            \"max_incl\": true,\n            \"params_min\": 1,\n            \"params_max\": 1\n            }"
+            "params": "{\"type\": \"float\",\n            \"min\": 0,\n            \"min_incl\": true,\n            \"max\": 1,\n            \"max_incl\": true,\n            \"params_min\": 1,\n            \"params_max\": 1,\n            \"unit_measure\": [\"ratio\", \"ratio\"]\n            }"
         },
         "H": {
             "prog": "0",
@@ -5345,7 +5345,7 @@
             "attr": "height",
             "type": "",
             "args": "",
-            "params": "{\n            \"type\": \"rangeable_int\",\n            \"min\": 0,\n            \"min_incl\": true,\n            \"params_min\": 1,\n            \"params_max\": 1\n}"
+            "params": "{\n            \"type\": \"rangeable_int\",\n            \"min\": 0,\n            \"min_incl\": true,\n            \"params_min\": 1,\n            \"params_max\": 1,\n            \"unit_measure\": [\"storey\", \"storeys\"]\n}"
         },
         "HAPP": {
             "prog": "100",
@@ -5356,7 +5356,7 @@
             "attr": "height",
             "type": "",
             "args": "",
-            "params": "{\n            \"type\": \"int\",\n            \"min\": 0,\n            \"min_incl\": true,\n            \"params_min\": 1,\n            \"params_max\": 1\n}"
+            "params": "{\n            \"type\": \"int\",\n            \"min\": 0,\n            \"min_incl\": true,\n            \"params_min\": 1,\n            \"params_max\": 1,\n            \"unit_measure\": [\"storey\", \"storeys\"]\n}"
         },
         "HHT": {
             "prog": "0",
@@ -5367,7 +5367,7 @@
             "attr": "height",
             "type": "",
             "args": "",
-            "params": "{\n            \"type\": \"float\",\n            \"min\": 1,\n            \"min_incl\": true,\n            \"params_min\": 1,\n            \"params_max\": 1\n}"
+            "params": "{\n            \"type\": \"float\",\n            \"min\": 1,\n            \"min_incl\": true,\n            \"params_min\": 1,\n            \"params_max\": 1,\n            \"unit_measure\": [\"meter\", \"meters\"]\n}"
         },
         "HHI": {
             "prog": "100",
@@ -5378,7 +5378,7 @@
             "attr": "height",
             "type": "",
             "args": "",
-            "params": "{\n            \"type\": \"float\",\n            \"min\": 1,\n            \"min_incl\": true,\n            \"params_min\": 1,\n            \"params_max\": 1\n}"
+            "params": "{\n            \"type\": \"float\",\n            \"min\": 1,\n            \"min_incl\": true,\n            \"params_min\": 1,\n            \"params_max\": 1,\n            \"unit_measure\": [\"meter\", \"meters\"]\n}"
         },
         "HB": {
             "prog": "0",
@@ -5389,7 +5389,7 @@
             "attr": "height",
             "type": "",
             "args": "",
-            "params": "{\n            \"type\": \"rangeable_int\",\n            \"min\": 0,\n            \"min_incl\": true,\n            \"params_min\": 1,\n            \"params_max\": 1\n}"
+            "params": "{\n            \"type\": \"rangeable_int\",\n            \"min\": 0,\n            \"min_incl\": true,\n            \"params_min\": 1,\n            \"params_max\": 1,\n            \"unit_measure\": [\"storey\", \"storeys\"]\n}"
         },
         "HBAPP": {
             "prog": "100",
@@ -5400,7 +5400,7 @@
             "attr": "height",
             "type": "",
             "args": "",
-            "params": "{\n            \"type\": \"int\",\n            \"min\": 0,\n            \"min_incl\": true,\n            \"params_min\": 1,\n            \"params_max\": 1\n}"
+            "params": "{\n            \"type\": \"int\",\n            \"min\": 0,\n            \"min_incl\": true,\n            \"params_min\": 1,\n            \"params_max\": 1,\n            \"unit_measure\": [\"storey\", \"storeys\"]\n}"
         },
         "HF": {
             "prog": "0",
@@ -5411,7 +5411,7 @@
             "attr": "height",
             "type": "",
             "args": "",
-            "params": "{\n            \"type\": \"rangeable_float\",\n            \"min\": 0,\n            \"min_incl\": true,\n            \"params_min\": 1,\n            \"params_max\": 1\n}"
+            "params": "{\n            \"type\": \"rangeable_float\",\n            \"min\": 0,\n            \"min_incl\": true,\n            \"params_min\": 1,\n            \"params_max\": 1,\n            \"unit_measure\": [\"meter\", \"meters\"]\n}"
         },
         "HFAPP": {
             "prog": "100",
@@ -5422,7 +5422,7 @@
             "attr": "height",
             "type": "",
             "args": "",
-            "params": "{\n            \"type\": \"float\",\n            \"min\": 0,\n            \"min_incl\": true,\n            \"params_min\": 1,\n            \"params_max\": 1\n}"
+            "params": "{\n            \"type\": \"float\",\n            \"min\": 0,\n            \"min_incl\": true,\n            \"params_min\": 1,\n            \"params_max\": 1,\n            \"unit_measure\": [\"meter\", \"meters\"]\n}"
         },
         "HD": {
             "prog": "0",
@@ -5433,7 +5433,7 @@
             "attr": "height",
             "type": "",
             "args": "",
-            "params": "{\n            \"type\": \"float\",\n            \"min\": 0,\n            \"min_incl\": true,\n            \"max\": 90,\n            \"max_incl\": false,\n            \"params_min\": 1,\n            \"params_max\": 1\n}"
+            "params": "{\n            \"type\": \"float\",\n            \"min\": 0,\n            \"min_incl\": true,\n            \"max\": 90,\n            \"max_incl\": false,\n            \"params_min\": 1,\n            \"params_max\": 1,\n            \"unit_measure\": [\"degree\", \"degrees\"]\n}"
         },
         "Y": {
             "prog": "0",
@@ -5444,10 +5444,10 @@
             "attr": "dates",
             "type": "",
             "args": "",
-            "params": "{\n            \"type\": \"rangeable_int\",\n            \"params_min\": 1,\n            \"params_max\": 1\n}"
+            "params": "{\n            \"type\": \"rangeable_int\",\n            \"params_min\": 1,\n            \"params_max\": 1,\n            \"unit_measure\": [\"year\", \"years\"]\n}"
         },
         "YAPP": {
-            "prog": "200",
+            "prog": "100",
             "name": "YAPP",
             "title": "Approximate date of construction or retrofit",
             "desc": "",
@@ -5455,7 +5455,7 @@
             "attr": "dates",
             "type": "",
             "args": "",
-            "params": "{\n            \"type\": \"int\",\n            \"params_min\": 1,\n            \"params_max\": 1\n}"
+            "params": "{\n            \"type\": \"int\",\n            \"params_min\": 1,\n            \"params_max\": 1,\n            \"unit_measure\": [\"year\", \"years\"]\n}"
         },
         "YMP": {
             "prog": "0",

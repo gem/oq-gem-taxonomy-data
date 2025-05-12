@@ -1,3 +1,7 @@
+# Openquake Gem Building Taxonomy Data - GEM building taxonomy data and python classes to access it.
+
+This package provide GEM Building Taxonomy dataset for ``oq-gem-taxonomy`` package from GEM Taxonomy specifications ([https://github.com/gem/gem_taxonomy/](https://github.com/gem/gem_taxonomy/))
+
 ## Licensing
 
 - **Code**: Licensed under the [GNU Affero General Public License v3.0](./LICENSE).

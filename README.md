@@ -2,7 +2,7 @@
 
 ## GEM Building Taxonomy dataset and python classes to access it.
 
-This package provide GEM Building Taxonomy dataset for ``oq-gem-taxonomy`` package from GEM Taxonomy specifications ([https://github.com/gem/gem_taxonomy/](https://github.com/gem/gem_taxonomy/))
+This package provide GEM Building Taxonomy dataset for [oq-gem-taxonomy](https://github.com/gem/oq-gem-taxonomy) package from GEM Taxonomy specifications ([https://github.com/gem/gem_taxonomy/](https://github.com/gem/gem_taxonomy/))
 
 ## Licensing
 

@@ -18,10 +18,10 @@ maintainers = [
 ]
 description = "Openquake Gem Taxonomy Data - taxonomy data and python classes to access it."
 readme = "README.md"
-license = {file = "LICENSE.txt"}
+license-files = [ "LICENSE" ]
 keywords = ["GEM", "taxonomy", "standard", "openquake"]
 classifiers = [
-  "Development Status :: 3 - Alpha",
+  "Development Status :: 4 - Beta",
   "Programming Language :: Python"
 ]
 
@@ -31,6 +31,7 @@ include-package-data = false
 [tool.setuptools.packages.find]
 namespaces = true
 where = ["."]
+exclude = ["build*"]
 
 [tool.setuptools.dynamic]
 version = {attr = "openquake.gem_taxonomy_data.__version__"}

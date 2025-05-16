@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
 # vim: tabstop=4 shiftwidth=4 softtabstop=4
 #
-# Copyright (C) 2024 GEM Foundation
+# Copyright (C) 2010-2025 GEM Foundation
 #
-# Openquake Gem Taxonomy is free software: you can redistribute it and/or
-# modify it # under the terms of the GNU Affero General Public License as
-# published by the Free Software Foundation, either version 3 of the
-# License, or (at your option) any later version.
+# OpenQuake GEM Building Taxonomy Data is free software: you can redistribute
+# it and/or modify it under the terms of the GNU Affero General Public
+# License as published by the Free Software Foundation, either version 3
+# of the License, or (at your option) any later version.
 #
 # OpenQuake is distributed in the hope that it will be useful,
 # but WITHOUT ANY WARRANTY; without even the implied warranty of
@@ -16,8 +16,4 @@
 # You should have received a copy of the GNU Affero General Public License
 # along with OpenQuake. If not, see <http://www.gnu.org/licenses/>.
 
-from .classes import GemTaxonomyData
-
-__version__ = '1.4.1'
-
-__all__ = ['__version__', 'GemTaxonomyData']
+__import__('pkg_resources').declare_namespace(__name__)

@@ -19,12 +19,16 @@ import os
 import json
 
 
+
 class GemTaxonomyData:
+    DEFAULT_VERSION = '3.3'
+    AVAILABLE_VERSIONS = ['3.3', '4.0']
+
     BASE_DATA_PATH = os.path.join(os.path.dirname(__file__), 'data')
 
-    def load(self, standard_version='latest'):
-        if standard_version == 'latest':
-            raise ValueError('latest not yet implemented.')
+    def load(self, standard_version='default'):
+        if standard_version == 'default':
+            standard_version = self.DEFAULT_VERSION
 
         if '/' in standard_version or '\\' in standard_version:
             raise ValueError('no file separators are allowed.')

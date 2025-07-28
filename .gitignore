@@ -1,4 +1,5 @@
 /venv*
+/*.whl
 /dist/
 /build/
 __pycache__

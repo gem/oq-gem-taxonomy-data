@@ -17,18 +17,23 @@
 # along with OpenQuake. If not, see <http://www.gnu.org/licenses/>.
 import os
 import json
-
+from .version import __version__ as GemTaxonomyDataVersion
 
 
 class GemTaxonomyData:
-    DEFAULT_VERSION = '3.3'
-    AVAILABLE_VERSIONS = ['3.3', '4.0']
+    DEFAULT_TAX_VERSION = '3.3'
+    AVAILABLE_TAX_VERSIONS = ['3.3', '4.0']
 
     BASE_DATA_PATH = os.path.join(os.path.dirname(__file__), 'data')
 
+    @classmethod
+    @property
+    def __version__(cls):
+        return GemTaxonomyDataVersion
+
     def load(self, standard_version='default'):
         if standard_version == 'default':
-            standard_version = self.DEFAULT_VERSION
+            standard_version = self.DEFAULT_TAX_VERSION
 
         if '/' in standard_version or '\\' in standard_version:
             raise ValueError('no file separators are allowed.')

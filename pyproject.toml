@@ -34,7 +34,7 @@ where = ["."]
 exclude = ["build*"]
 
 [tool.setuptools.dynamic]
-version = {attr = "openquake.gem_taxonomy_data.__version__"}
+version = {attr = "openquake.gem_taxonomy_data.version.__version__"}
 
 [tool.setuptools.package-data]
 "openquake.gem_taxonomy_data.data" = ["*.json"]

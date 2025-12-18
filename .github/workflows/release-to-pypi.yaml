@@ -31,13 +31,16 @@ jobs:
 
     steps:
     - name: Clone Repository (Latest)
-      uses: actions/checkout@v4
+      uses: actions/checkout@v6
+      with:
+        persistent-credentials: false
       if: github.event.inputs.git-ref == ''
     - name: Clone Repository (Custom Ref)
-      uses: actions/checkout@v4
+      uses: actions/checkout@v6
       if: github.event.inputs.git-ref != ''
       with:
         ref: ${{ github.event.inputs.git-ref }}
+        persistent-credentials: false
     - name: Set up Python
       uses: actions/setup-python@v5
       with:
@@ -65,7 +68,7 @@ jobs:
         ./helpers/abs_readme.sh "${{ github.event.inputs.git-ref }}"
         python3 -m build
     - name: Store the distribution packages
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v5
       with:
         name: python-package-distributions
         path: dist/
@@ -83,7 +86,7 @@ jobs:
       id-token: write  # IMPORTANT: mandatory for trusted publishing
     steps:
     - name: Download all the dists
-      uses: actions/download-artifact@v4
+      uses: actions/download-artifact@v6
       with:
         name: python-package-distributions
         path: dist/
@@ -105,7 +108,7 @@ jobs:
       id-token: write  # IMPORTANT: mandatory for trusted publishing
     steps:
     - name: Download all the dists
-      uses: actions/download-artifact@v4
+      uses: actions/download-artifact@v6
       with:
         name: python-package-distributions
         path: dist/

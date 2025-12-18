@@ -11,6 +11,13 @@ on:
         description: Branch of gem/oq-gem-taxonomy-data repository
         default: main
         required: true
+      target:
+        type: choice
+        description: Where publish package
+        required: true
+        options:
+        - pypi
+        - test
       pypi-prod:
         type: boolean
         description: Publish PyPI
@@ -56,7 +63,8 @@ jobs:
       env:
         BUILD_NUMBER: ${{ github.run_number }}
       run: |
-        echo git_hash=$(git rev-parse --short "$GITHUB_SHA")
+        git_hash=$(git rev-parse --short "$GITHUB_SHA")
+        echo "GIT COMMIT HASH: $git_hash"
         sed -i "s/\(^__version__ = '[^']\+\)'/\1.dev${BUILD_NUMBER}'/g" openquake/gem_taxonomy_data/__init__.py
       if: ${{ github.event_name == 'workflow_dispatch' && inputs.pypi-test }} || ${{ github.event_name == 'schedule' }}
     - name: Install pypa/build

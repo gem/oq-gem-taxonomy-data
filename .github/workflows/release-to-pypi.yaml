@@ -4,7 +4,7 @@ on:
     inputs:
       debug_enabled:
         type: boolean
-        description: 'Run the build with tmate debugging enabled '
+        description: 'Run the build with tmate debugging enabled'
         required: false
         default: false
       git-ref:
@@ -19,16 +19,7 @@ on:
         options:
         - pypi
         - test
-      pypi-prod:
-        type: boolean
-        description: Publish PyPI
-        default: false
-        required: true
-      pypi-test:
-        type: boolean
-        description: Publish TestPyPI
-        default: false
-        required: true
+        default: test
   schedule:
     - cron: "30 9 * * *"
 
@@ -67,7 +58,7 @@ jobs:
         git_hash=$(git rev-parse --short "$GITHUB_SHA")
         echo "GIT COMMIT HASH: $git_hash"
         sed -i "s/\(^__version__ = '[^']\+\)'/\1.dev${BUILD_NUMBER}'/g" openquake/gem_taxonomy_data/__init__.py
-      if: ${{ github.event_name == 'workflow_dispatch' && inputs.pypi-test }} || ${{ github.event_name == 'schedule' }}
+      if: ${{ github.event_name == 'workflow_dispatch' && inputs.target == 'test' }} || ${{ github.event_name == 'schedule' }}
     - name: Install pypa/build
       run: |
         python3 -m pip install build --user
@@ -109,7 +100,7 @@ jobs:
     name: Publish Python 🐍 distribution 📦 to PyPI
     needs:
     - build
-    if: ${{ github.event_name == 'workflow_dispatch' && inputs.pypi-prod }}
+    if: ${{ github.event_name == 'workflow_dispatch' && inputs.target == 'pypi' }}
     runs-on: ubuntu-latest
     environment:
       name: pypi

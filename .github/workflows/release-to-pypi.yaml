@@ -9,11 +9,11 @@ on:
       target:
         type: choice
         description: |
-          "pypi": publish on public PyPI, "test": publish on Test PyPI
+          "test": publish on Test PyPI, "pypi": publish on public PyPI
         required: true
         options:
-        - pypi
         - test
+        - pypi
         default: test
       debug_enabled:
         type: boolean

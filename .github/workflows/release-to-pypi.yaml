@@ -78,7 +78,6 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: testpypi
-      verbose: true
       url: https://test.pypi.org/p/openquake.gem-taxonomy-data
     permissions:
       id-token: write  # IMPORTANT: mandatory for trusted publishing

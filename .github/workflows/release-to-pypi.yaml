@@ -53,8 +53,8 @@ jobs:
       env:
         BUILD_NUMBER: ${{ github.run_number }}
       run: |
-        git_hash=$(git rev-parse --short "$GITHUB_SHA")
-        sed -i "s/\(^__version__ = '[^']\+\)'/\1.dev${BUILD_NUMBER}+g${git_hash}'/g" openquake/gem_taxonomy_data/__init__.py
+        echo git_hash=$(git rev-parse --short "$GITHUB_SHA")
+        echo sed -i "s/\(^__version__ = '[^']\+\)'/\1.dev${BUILD_NUMBER}+g${git_hash}'/g" openquake/gem_taxonomy_data/__init__.py
       if: ${{ github.event_name == 'workflow_dispatch' && inputs.pypi-test }} || ${{ github.event_name == 'schedule' }}
     - name: Install pypa/build
       run: |
@@ -78,7 +78,6 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: testpypi
-      verbose: true
       url: https://test.pypi.org/p/openquake.gem-taxonomy-data
     permissions:
       id-token: write  # IMPORTANT: mandatory for trusted publishing

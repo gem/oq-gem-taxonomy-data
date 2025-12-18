@@ -58,7 +58,7 @@ jobs:
         git_hash=$(git rev-parse --short "$GITHUB_SHA")
         echo "GIT COMMIT HASH: $git_hash"
         sed -i "s/\(^__version__ = '[^']\+\)'/\1.dev${BUILD_NUMBER}'/g" openquake/gem_taxonomy_data/__init__.py
-      if: ${{ github.event_name == 'workflow_dispatch' && inputs.target == 'test' }} || ${{ github.event_name == 'schedule' }}
+      if: ${{ github.event_name == 'workflow_dispatch' && (inputs.target == 'test') }} || ${{ github.event_name == 'schedule' }}
     - name: Install pypa/build
       run: |
         python3 -m pip install build --user
@@ -77,7 +77,7 @@ jobs:
     name: Publish Python 🐍 distribution 📦 to TestPyPI
     needs:
     - build
-    if: ${{ github.event_name == 'workflow_dispatch' && inputs.target == 'test' }} || ${{ github.event_name == 'schedule' }}
+    if: ${{ github.event_name == 'workflow_dispatch' && (inputs.target == 'test') }} || ${{ github.event_name == 'schedule' }}
     runs-on: ubuntu-latest
     environment:
       name: testpypi
@@ -100,7 +100,7 @@ jobs:
     name: Publish Python 🐍 distribution 📦 to PyPI
     needs:
     - build
-    if: ${{ github.event_name == 'workflow_dispatch' && inputs.target == 'pypi' }}
+    if: ${{ github.event_name == 'workflow_dispatch' && (inputs.target == 'pypi') }}
     runs-on: ubuntu-latest
     environment:
       name: pypi

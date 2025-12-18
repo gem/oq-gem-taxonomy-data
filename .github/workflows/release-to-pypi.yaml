@@ -2,11 +2,6 @@ name: Publish Python 🐍 distribution 📦 to PyPI or TestPyPI
 on:
   workflow_dispatch:
     inputs:
-      debug_enabled:
-        type: boolean
-        description: 'Run the build with tmate debugging enabled'
-        required: false
-        default: false
       git-ref:
         description: Branch of gem/oq-gem-taxonomy-data repository
         default: main
@@ -20,6 +15,11 @@ on:
         - pypi
         - test
         default: test
+      debug_enabled:
+        type: boolean
+        description: 'Run the build with tmate debugging enabled'
+        required: false
+        default: false
   schedule:
     - cron: "30 9 * * *"
 

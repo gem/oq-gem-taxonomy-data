@@ -16,8 +16,10 @@ on:
         description: Where publish package
         required: true
         options:
-        - pypi: Publish on public PyPI repository
-        - test: Publish on test PyPI repository
+        - pypi:
+          description: Publish on public PyPI repository
+        - test:
+          description: Publish on test PyPI repository
       pypi-prod:
         type: boolean
         description: Publish PyPI

@@ -18,6 +18,6 @@
 
 from .classes import GemTaxonomyData
 
-__version__ = '1.4.0.3'
+__version__ = '1.4.0.4'
 
 __all__ = ['__version__', 'GemTaxonomyData']

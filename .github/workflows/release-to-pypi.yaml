@@ -13,13 +13,14 @@ on:
         required: true
       target:
         type: choice
-        description: Where publish package
+        description: |
+        Where publish package:
+          "pypi": publish on public PyPI repository
+          "test": publish on test PyPI repository
         required: true
         options:
-        - pypi:
-            description: Publish on public PyPI repository
-        - test:
-            description: Publish on test PyPI repository
+        - pypi
+        - test
       pypi-prod:
         type: boolean
         description: Publish PyPI

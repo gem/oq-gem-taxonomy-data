@@ -15,8 +15,8 @@ on:
         type: choice
         description: |
           Where publish package:
-            "pypi": publish on public PyPI repository
-            "test": publish on test PyPI repository
+          "pypi": publish on public PyPI repository
+          "test": publish on test PyPI repository
         required: true
         options:
         - pypi

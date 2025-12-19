@@ -31,6 +31,9 @@ jobs:
     steps:
     - name: Show parameters
       run: |
+        git_hash=$(git rev-parse --short "$GITHUB_SHA")
+        echo "git commit: $git_hash"
+        echo "build number: ${BUILD_NUMBER}"
         echo "git-ref: ${{ github.event.inputs.git-ref }}"
         echo "target: ${{ github.event.inputs.target }}"
         echo "debug_enabled: ${{ github.event.inputs.debug_enabled }}"
@@ -57,8 +60,6 @@ jobs:
       env:
         BUILD_NUMBER: ${{ github.run_number }}
       run: |
-        git_hash=$(git rev-parse --short "$GITHUB_SHA")
-        echo "GIT COMMIT HASH: $git_hash"
         sed -i "s/\(^__version__ = '[^']\+\)'/\1.dev${BUILD_NUMBER}'/g" openquake/gem_taxonomy_data/__init__.py
       if: ${{ (github.event_name == 'workflow_dispatch' && github.event.inputs.target == 'test') || github.event_name == 'schedule' }}
     - name: Install pypa/build
@@ -95,7 +96,7 @@ jobs:
     - name: Publish distribution 📦 to TestPyPI
       uses: pypa/gh-action-pypi-publish@release/v1
       with:
-        verbose: true
+        verbose: false
         repository-url: https://test.pypi.org/legacy/
 
   publish-to-pypi:

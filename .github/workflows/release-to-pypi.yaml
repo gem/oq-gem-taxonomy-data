@@ -21,7 +21,7 @@ on:
         required: false
         default: false
   schedule:
-    - cron: "30 9 * * *"
+    - cron: "30 5 * * *"
 
 jobs:
   build:

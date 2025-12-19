@@ -31,8 +31,7 @@ jobs:
     steps:
     - name: Show parameters
       run: |
-        git_hash=$(git rev-parse --short "$GITHUB_SHA")
-        echo "git commit: $git_hash"
+        echo "git commit: $GITHUB_SHA"
         echo "build number: ${BUILD_NUMBER}"
         echo "git-ref: ${{ github.event.inputs.git-ref }}"
         echo "target: ${{ github.event.inputs.target }}"

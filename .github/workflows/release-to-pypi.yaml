@@ -32,7 +32,7 @@ jobs:
     - name: Show parameters
       run: |
         echo "git commit: $GITHUB_SHA"
-        echo "build number: ${BUILD_NUMBER}"
+        echo "build number: ${{ BUILD_NUMBER }}"
         echo "git-ref: ${{ github.event.inputs.git-ref }}"
         echo "target: ${{ github.event.inputs.target }}"
         echo "debug_enabled: ${{ github.event.inputs.debug_enabled }}"

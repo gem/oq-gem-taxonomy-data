@@ -1,4 +1,4 @@
-name: Test Django Package
+name: Test Python Package
 
 on: [push, pull_request]
 

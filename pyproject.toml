@@ -29,9 +29,10 @@ classifiers = [
 include-package-data = false
 
 [tool.setuptools.packages.find]
-namespaces = true
 where = ["."]
+include = ["openquake*"]
 exclude = ["build*"]
+namespaces = true
 
 [tool.setuptools.dynamic]
 version = {attr = "openquake.gem_taxonomy_data.__version__"}

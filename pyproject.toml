@@ -32,8 +32,7 @@ include-package-data = false
 namespaces = true
 where = ['.']
 include = ['openquake*']
-exclude = ['build']
-
+exclude = ['build*']
 
 [tool.setuptools.dynamic]
 version = {attr = "openquake.gem_taxonomy_data.version.__version__"}

@@ -17,7 +17,7 @@
 # along with OpenQuake. If not, see <http://www.gnu.org/licenses/>.
 import os
 import json
-from .version import __version__ as GemTaxonomyDataVersion
+from .version import __version__ as gem_taxonomy_data_version
 
 
 class GemTaxonomyData:
@@ -28,8 +28,8 @@ class GemTaxonomyData:
 
     @classmethod
     @property
-    def __version__(cls):
-        return GemTaxonomyDataVersion
+    def version(cls):
+        return gem_taxonomy_data_version
 
     def load(self, standard_version='default'):
         if standard_version == 'default':

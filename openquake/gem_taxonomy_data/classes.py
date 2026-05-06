@@ -21,7 +21,7 @@ from .version import __version__ as GemTaxonomyDataVersion
 
 
 class GemTaxonomyData:
-    DEFAULT_TAX_VERSION = '3.3'
+    DEFAULT_TAX_VERSION = '4.0'
     AVAILABLE_TAX_VERSIONS = ['3.3', '4.0']
 
     BASE_DATA_PATH = os.path.join(os.path.dirname(__file__), 'data')

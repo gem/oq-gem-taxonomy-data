@@ -30,8 +30,10 @@ include-package-data = false
 
 [tool.setuptools.packages.find]
 namespaces = true
-where = ["."]
-exclude = ["build*"]
+where = ['.']
+include = ['openquake*']
+exclude = ['build']
+
 
 [tool.setuptools.dynamic]
 version = {attr = "openquake.gem_taxonomy_data.version.__version__"}

@@ -29,13 +29,13 @@ classifiers = [
 include-package-data = false
 
 [tool.setuptools.packages.find]
-where = ["."]
-include = ["openquake*"]
-exclude = ["build*"]
 namespaces = true
+where = ['.']
+include = ['openquake*']
+exclude = ['build*']
 
 [tool.setuptools.dynamic]
-version = {attr = "openquake.gem_taxonomy_data.__version__"}
+version = {attr = "openquake.gem_taxonomy_data.version.__version__"}
 
 [tool.setuptools.package-data]
 "openquake.gem_taxonomy_data.data" = ["*.json"]

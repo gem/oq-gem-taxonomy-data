@@ -26,8 +26,7 @@ class GemTaxonomyData:
 
     BASE_DATA_PATH = os.path.join(os.path.dirname(__file__), 'data')
 
-    @classmethod
-    @property
+    @classmethod    
     def version(cls):
         return _gem_taxonomy_data_version
 

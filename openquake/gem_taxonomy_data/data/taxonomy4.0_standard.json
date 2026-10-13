@@ -570,12 +570,12 @@
         {
             "prog": "1700",
             "name": "MDV",
-            "title": "LHV(sys_a;sys_b[;...]), different materials in height \n(a=primary system; b=secondary system [;...])",
+            "title": "MDV(sys_a;sys_b[;...]), different materials in height\n(a=primary system; b=secondary system [;...])",
             "desc": "",
             "group": "material_type",
             "attr": "material",
             "type": "",
-            "args": "{\"type\": \"filtered_attribute('material', ['MDV'])\",\n            \"args_min\": 2,\n            \"must_be_diff\": true\n            }",
+            "args": "{\"type\": \"filtered_attribute('material', ['MDV','MDD'])\",\n            \"args_min\": 2,\n            \"must_be_diff\": true\n            }",
             "params": ""
         },
         {
@@ -1301,7 +1301,7 @@
             "group": "type_lateral_load",
             "attr": "llrs",
             "type": "",
-            "args": "{\"type\": \"filtered_attribute('llrs', ['LDD', 'LHV'])\",\n            \"args_min\": 2,\n            \"args_max\": 2,\n            \"must_be_diff\": true\n            }",
+            "args": "{\"type\": \"filtered_attribute('llrs', ['LDD'])\",\n            \"args_min\": 2,\n            \"args_max\": 2,\n            \"must_be_diff\": true\n            }",
             "params": ""
         },
         {
@@ -4812,12 +4812,12 @@
         "MDV": {
             "prog": "1700",
             "name": "MDV",
-            "title": "LHV(sys_a;sys_b[;...]), different materials in height \n(a=primary system; b=secondary system [;...])",
+            "title": "MDV(sys_a;sys_b[;...]), different materials in height\n(a=primary system; b=secondary system [;...])",
             "desc": "",
             "group": "material_type",
             "attr": "material",
             "type": "",
-            "args": "{\"type\": \"filtered_attribute('material', ['MDV'])\",\n            \"args_min\": 2,\n            \"must_be_diff\": true\n            }",
+            "args": "{\"type\": \"filtered_attribute('material', ['MDV','MDD'])\",\n            \"args_min\": 2,\n            \"must_be_diff\": true\n            }",
             "params": ""
         },
         "MOB": {
@@ -5543,7 +5543,7 @@
             "group": "type_lateral_load",
             "attr": "llrs",
             "type": "",
-            "args": "{\"type\": \"filtered_attribute('llrs', ['LDD', 'LHV'])\",\n            \"args_min\": 2,\n            \"args_max\": 2,\n            \"must_be_diff\": true\n            }",
+            "args": "{\"type\": \"filtered_attribute('llrs', ['LDD'])\",\n            \"args_min\": 2,\n            \"args_max\": 2,\n            \"must_be_diff\": true\n            }",
             "params": ""
         },
         "LHV": {

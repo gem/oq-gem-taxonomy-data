@@ -1,0 +1,345 @@
+atomsgroup_count|attr_title|atomsgroup_title|atomsgroup_name|atomsgroup_prog|atom_name|atom_title
+1|Direction|Direction of building under consideration|DirectionCB11|0|DX|Direction X
+1|Direction|Direction of building under consideration|DirectionCB11|0|DY|Direction Y
+2|Direction|Description of the direction|DirectionCB21|1|PF|Parallel to street
+2|Direction|Description of the direction|DirectionCB21|1|OF|Perpendiculare to street
+2|Direction|Description of the direction|DirectionCB21|1|D99|Unspecified direction
+3|Material of lateral load-resisting system|Material type|MaterialCB12|0|MAT99|Unknown Material
+3|Material of lateral load-resisting system|Material type|MaterialCB12|0|C99|Concrete, unknown reinforcement
+3|Material of lateral load-resisting system|Material type|MaterialCB12|0|CU|Concrete, unreinforced
+3|Material of lateral load-resisting system|Material type|MaterialCB12|0|CR|Concrete, reinforced
+3|Material of lateral load-resisting system|Material type|MaterialCB12|0|SRC|Concrete, composite with steel section
+3|Material of lateral load-resisting system|Material type|MaterialCB12|0|S|Steel
+3|Material of lateral load-resisting system|Material type|MaterialCB12|0|ME|Metal (except steel)
+3|Material of lateral load-resisting system|Material type|MaterialCB12|0|M99|Masonry, unknown reinforcement
+3|Material of lateral load-resisting system|Material type|MaterialCB12|0|MUR|Masonry, unreinforced
+3|Material of lateral load-resisting system|Material type|MaterialCB12|0|MCF|Masonry, confined
+3|Material of lateral load-resisting system|Material type|MaterialCB12|0|MR|Masonry, reinforced
+3|Material of lateral load-resisting system|Material type|MaterialCB12|0|E99|Earth, unknown reinforcement
+3|Material of lateral load-resisting system|Material type|MaterialCB12|0|EU|Earth, unreinforced
+3|Material of lateral load-resisting system|Material type|MaterialCB12|0|ER|Earth, reinforced
+3|Material of lateral load-resisting system|Material type|MaterialCB12|0|W|Wood
+3|Material of lateral load-resisting system|Material type|MaterialCB12|0|MATO|Other material
+4|Material of lateral load-resisting system|Material technology|MaterialCB22|1|CT99|Unknown concrete technology
+4|Material of lateral load-resisting system|Material technology|MaterialCB22|1|CIP|Cast-in-place concrete
+4|Material of lateral load-resisting system|Material technology|MaterialCB22|1|PC|Precast concrete
+4|Material of lateral load-resisting system|Material technology|MaterialCB22|1|CIPPS|Cast-in-place prestressed concrete
+4|Material of lateral load-resisting system|Material technology|MaterialCB22|1|PCPS|Precast prestressed concrete
+4|Material of lateral load-resisting system|Material technology|MaterialCB22|1|S99|Steel, unknown
+4|Material of lateral load-resisting system|Material technology|MaterialCB22|1|SL|Cold-formed steel members
+4|Material of lateral load-resisting system|Material technology|MaterialCB22|1|SR|Hot-rolled steel members
+4|Material of lateral load-resisting system|Material technology|MaterialCB22|1|SO|Steel, other
+4|Material of lateral load-resisting system|Material technology|MaterialCB22|1|ME99|Metal, unknown
+4|Material of lateral load-resisting system|Material technology|MaterialCB22|1|MEIR|Iron
+4|Material of lateral load-resisting system|Material technology|MaterialCB22|1|MEO|Metal, other
+4|Material of lateral load-resisting system|Material technology|MaterialCB22|1|MUN99|Masonry unit, unknown
+4|Material of lateral load-resisting system|Material technology|MaterialCB22|1|ADO|Adobe blocks
+4|Material of lateral load-resisting system|Material technology|MaterialCB22|1|ST99|Stone, unknown technology
+4|Material of lateral load-resisting system|Material technology|MaterialCB22|1|STRUB|Rubble (field stone) or semi-dressed stone
+4|Material of lateral load-resisting system|Material technology|MaterialCB22|1|STDRE|Dressed stone
+4|Material of lateral load-resisting system|Material technology|MaterialCB22|1|CL99|Fired clay unit, unknown type
+4|Material of lateral load-resisting system|Material technology|MaterialCB22|1|CLBRS|Fired clay solid bricks
+4|Material of lateral load-resisting system|Material technology|MaterialCB22|1|CLBRH|Fired clay hollow bricks
+4|Material of lateral load-resisting system|Material technology|MaterialCB22|1|CLBLH|Fired clay hollow blocks or tiles
+4|Material of lateral load-resisting system|Material technology|MaterialCB22|1|CB99|Concrete blocks, unknown type
+4|Material of lateral load-resisting system|Material technology|MaterialCB22|1|CBS|Concrete blocks, solid
+4|Material of lateral load-resisting system|Material technology|MaterialCB22|1|CBH|Concrete blocks, hollow
+4|Material of lateral load-resisting system|Material technology|MaterialCB22|1|MO|Masonry unit, other
+4|Material of lateral load-resisting system|Material technology|MaterialCB22|1|ET99|Unknown earth technology
+4|Material of lateral load-resisting system|Material technology|MaterialCB22|1|ETR|Rammed earth
+4|Material of lateral load-resisting system|Material technology|MaterialCB22|1|ETC|Cob or wet construction
+4|Material of lateral load-resisting system|Material technology|MaterialCB22|1|ETO|Earth technology, other
+4|Material of lateral load-resisting system|Material technology|MaterialCB22|1|W99|Wood, unknown
+4|Material of lateral load-resisting system|Material technology|MaterialCB22|1|WHE|Heavy wood
+4|Material of lateral load-resisting system|Material technology|MaterialCB22|1|WLI|Light wood members
+4|Material of lateral load-resisting system|Material technology|MaterialCB22|1|WS|Solid wood
+4|Material of lateral load-resisting system|Material technology|MaterialCB22|1|WWD|Wattle and daub
+4|Material of lateral load-resisting system|Material technology|MaterialCB22|1|WBB|Bamboo
+4|Material of lateral load-resisting system|Material technology|MaterialCB22|1|WO|Wood, other
+5|Material of lateral load-resisting system|Material Properties|MaterialCB32|2|SC99|Unknown connection
+5|Material of lateral load-resisting system|Material Properties|MaterialCB32|2|WEL|Welded connections
+5|Material of lateral load-resisting system|Material Properties|MaterialCB32|2|RIV|Riveted connections
+5|Material of lateral load-resisting system|Material Properties|MaterialCB32|2|BOL|Bolted connections
+5|Material of lateral load-resisting system|Material Properties|MaterialCB32|2|MO99|Mortar type, unknown
+5|Material of lateral load-resisting system|Material Properties|MaterialCB32|2|MON|No mortar
+5|Material of lateral load-resisting system|Material Properties|MaterialCB32|2|MOM|Mud mortar
+5|Material of lateral load-resisting system|Material Properties|MaterialCB32|2|MOL|Lime mortar
+5|Material of lateral load-resisting system|Material Properties|MaterialCB32|2|MOC|Cement mortar
+5|Material of lateral load-resisting system|Material Properties|MaterialCB32|2|MOCL|Cement:lime mortar
+5|Material of lateral load-resisting system|Material Properties|MaterialCB32|2|SP99|Stone, unknown type
+5|Material of lateral load-resisting system|Material Properties|MaterialCB32|2|SPLI|Limestone
+5|Material of lateral load-resisting system|Material Properties|MaterialCB32|2|SPSA|Sandstone
+5|Material of lateral load-resisting system|Material Properties|MaterialCB32|2|SPTU|Tuff
+5|Material of lateral load-resisting system|Material Properties|MaterialCB32|2|SPSL|Slate
+5|Material of lateral load-resisting system|Material Properties|MaterialCB32|2|SPGR|Granite
+5|Material of lateral load-resisting system|Material Properties|MaterialCB32|2|SPBA|Basalt
+5|Material of lateral load-resisting system|Material Properties|MaterialCB32|2|SPO|Stone, other type
+6|Material of lateral load-resisting system|Material technology (additional)|MaterialCB42|3|MR99|Unknown reinforcement
+6|Material of lateral load-resisting system|Material technology (additional)|MaterialCB42|3|RS|Steel-reinforced
+6|Material of lateral load-resisting system|Material technology (additional)|MaterialCB42|3|RW|Wood-reinforced
+6|Material of lateral load-resisting system|Material technology (additional)|MaterialCB42|3|RB|Bamboo-, cane- or rope-reinforced
+6|Material of lateral load-resisting system|Material technology (additional)|MaterialCB42|3|RCM|Fibre reinforcing mesh
+6|Material of lateral load-resisting system|Material technology (additional)|MaterialCB42|3|RCB|Reinforced concrete bands
+7|Lateral load-resisting system|Type lateral load-resisting system|SystemCB12|0|L99|Unknown lateral load-resisting system
+7|Lateral load-resisting system|Type lateral load-resisting system|SystemCB12|0|LN|No lateral load-resisting system
+7|Lateral load-resisting system|Type lateral load-resisting system|SystemCB12|0|LWAL|Wall
+7|Lateral load-resisting system|Type lateral load-resisting system|SystemCB12|0|LH|Hybrid lateral load-resisting system
+7|Lateral load-resisting system|Type lateral load-resisting system|SystemCB12|0|LO|Other lateral load-resisting system
+7|Lateral load-resisting system|Type lateral load-resisting system|SystemCB12|0|LFM|Moment frame
+7|Lateral load-resisting system|Type lateral load-resisting system|SystemCB12|0|LPB|Post and beam
+7|Lateral load-resisting system|Type lateral load-resisting system|SystemCB12|0|LFINF|Infilled frame
+7|Lateral load-resisting system|Type lateral load-resisting system|SystemCB12|0|LFBR|Braced frame
+7|Lateral load-resisting system|Type lateral load-resisting system|SystemCB12|0|LDUAL|Dual frame-wall system
+7|Lateral load-resisting system|Type lateral load-resisting system|SystemCB12|0|LFLS|Flat slab/plate or waffle slab
+7|Lateral load-resisting system|Type lateral load-resisting system|SystemCB12|0|LFLSINF|Infilled flat slab/plate or infilled waffle slab
+8|Lateral load-resisting system|System ductility|SystemCB22|1|DU99|Ductility unknown
+8|Lateral load-resisting system|System ductility|SystemCB22|1|DUC|Ductile
+8|Lateral load-resisting system|System ductility|SystemCB22|1|DNO|Non-ductile
+8|Lateral load-resisting system|System ductility|SystemCB22|1|DBD|Base isolation and/or energy dissipation devices
+9|Height|Number of storeys above ground|HeightCB1|0|H99|Unknown number of storeys
+9|Height|Number of storeys above ground|HeightCB1|0|HBET|Range of the number of storeys
+9|Height|Number of storeys above ground|HeightCB1|0|HEX|Exact number of storeys
+9|Height|Number of storeys above ground|HeightCB1|0|HAPP|Approximate number of storeys
+10|Height|Number of storeys below ground|HeightCB2|1|HB99|Unknown number of storeys
+10|Height|Number of storeys below ground|HeightCB2|1|HBBET|Range of the number of storeys
+10|Height|Number of storeys below ground|HeightCB2|1|HBEX|Exact number of storeys
+10|Height|Number of storeys below ground|HeightCB2|1|HBAPP|Approximate number of storeys
+11|Height|Height of ground floor level above grade (m)|HeightCB3|2|HF99|Height above grade unknown
+11|Height|Height of ground floor level above grade (m)|HeightCB3|2|HFBET|Range of height above grade
+11|Height|Height of ground floor level above grade (m)|HeightCB3|2|HFEX|Exact height above grade
+11|Height|Height of ground floor level above grade (m)|HeightCB3|2|HFAPP|Approximate height above grade
+12|Height|Slope of the ground (degrees)|HeightCB4|3|HD99|Unknown slope
+12|Height|Slope of the ground (degrees)|HeightCB4|3|HD|Slope of the ground
+13|Date|Date of construction or retrofit (yyyy)|DateCB1|0|Y99|Year unknown
+13|Date|Date of construction or retrofit (yyyy)|DateCB1|0|YEX|Exact date of construction or retrofit
+13|Date|Date of construction or retrofit (yyyy)|DateCB1|0|YBET|Bounds for the date of construction or retrofit
+13|Date|Date of construction or retrofit (yyyy)|DateCB1|0|YPRE|Latest possible date of construction or retrofit
+13|Date|Date of construction or retrofit (yyyy)|DateCB1|0|YAPP|Approximate date of construction or retrofit
+14|Occupancy|Building occupancy class - general|OccupancyCB1|0|OC99|Unknown occupancy type
+14|Occupancy|Building occupancy class - general|OccupancyCB1|0|RES|Residential
+14|Occupancy|Building occupancy class - general|OccupancyCB1|0|COM|Commercial and public
+14|Occupancy|Building occupancy class - general|OccupancyCB1|0|MIX|Mixed use
+14|Occupancy|Building occupancy class - general|OccupancyCB1|0|IND|Industrial
+14|Occupancy|Building occupancy class - general|OccupancyCB1|0|AGR|Agriculture
+14|Occupancy|Building occupancy class - general|OccupancyCB1|0|ASS|Assembly
+14|Occupancy|Building occupancy class - general|OccupancyCB1|0|GOV|Government
+14|Occupancy|Building occupancy class - general|OccupancyCB1|0|EDU|Education
+14|Occupancy|Building occupancy class - general|OccupancyCB1|0|OCO|Other occupancy class
+15|Occupancy|Building occupancy class - detail|OccupancyCB2|1|RES99|Residential, unknown type
+15|Occupancy|Building occupancy class - detail|OccupancyCB2|1|RES1|Single dwelling
+15|Occupancy|Building occupancy class - detail|OccupancyCB2|1|RES2|Multi-unit, unknown type
+15|Occupancy|Building occupancy class - detail|OccupancyCB2|1|RES2A|2 Units (Duplex)
+15|Occupancy|Building occupancy class - detail|OccupancyCB2|1|RES2B|3-4 Units
+15|Occupancy|Building occupancy class - detail|OccupancyCB2|1|RES2C|5-9 Units
+15|Occupancy|Building occupancy class - detail|OccupancyCB2|1|RES2D|10-19 Units
+15|Occupancy|Building occupancy class - detail|OccupancyCB2|1|RES2E|20-49 Units
+15|Occupancy|Building occupancy class - detail|OccupancyCB2|1|RES2F|50+ Units
+15|Occupancy|Building occupancy class - detail|OccupancyCB2|1|RES3|Temporary lodging
+15|Occupancy|Building occupancy class - detail|OccupancyCB2|1|RES4|Institutional housing
+15|Occupancy|Building occupancy class - detail|OccupancyCB2|1|RES5|Mobile home
+15|Occupancy|Building occupancy class - detail|OccupancyCB2|1|RES6|Informal housing
+15|Occupancy|Building occupancy class - detail|OccupancyCB2|1|COM99|Commercial and public, unknown type
+15|Occupancy|Building occupancy class - detail|OccupancyCB2|1|COM1|Retail trade
+15|Occupancy|Building occupancy class - detail|OccupancyCB2|1|COM2|Wholesale trade and storage (warehouse)
+15|Occupancy|Building occupancy class - detail|OccupancyCB2|1|COM3|Offices, professional/technical services
+15|Occupancy|Building occupancy class - detail|OccupancyCB2|1|COM4|Hospital/medical clinic
+15|Occupancy|Building occupancy class - detail|OccupancyCB2|1|COM5|Entertainment
+15|Occupancy|Building occupancy class - detail|OccupancyCB2|1|COM6|Public building
+15|Occupancy|Building occupancy class - detail|OccupancyCB2|1|COM7|Covered parking garage
+15|Occupancy|Building occupancy class - detail|OccupancyCB2|1|COM8|Bus station
+15|Occupancy|Building occupancy class - detail|OccupancyCB2|1|COM9|Railway station
+15|Occupancy|Building occupancy class - detail|OccupancyCB2|1|COM10|Airport
+15|Occupancy|Building occupancy class - detail|OccupancyCB2|1|COM11|Recreation and leisure
+15|Occupancy|Building occupancy class - detail|OccupancyCB2|1|MIX99|Mixed, unknown type
+15|Occupancy|Building occupancy class - detail|OccupancyCB2|1|MIX1|Mostly residential and commercial
+15|Occupancy|Building occupancy class - detail|OccupancyCB2|1|MIX2|Mostly commercial and residential
+15|Occupancy|Building occupancy class - detail|OccupancyCB2|1|MIX3|Mostly commercial and industrial
+15|Occupancy|Building occupancy class - detail|OccupancyCB2|1|MIX4|Mostly residential and industrial
+15|Occupancy|Building occupancy class - detail|OccupancyCB2|1|MIX5|Mostly industrial and commercial
+15|Occupancy|Building occupancy class - detail|OccupancyCB2|1|MIX6|Mostly industrial and residential
+15|Occupancy|Building occupancy class - detail|OccupancyCB2|1|IND99|Industrial, unknown type
+15|Occupancy|Building occupancy class - detail|OccupancyCB2|1|IND1|Heavy industrial
+15|Occupancy|Building occupancy class - detail|OccupancyCB2|1|IND2|Light industrial
+15|Occupancy|Building occupancy class - detail|OccupancyCB2|1|AGR99|Agriculture, unknown type
+15|Occupancy|Building occupancy class - detail|OccupancyCB2|1|AGR1|Produce storage
+15|Occupancy|Building occupancy class - detail|OccupancyCB2|1|AGR2|Animal shelter
+15|Occupancy|Building occupancy class - detail|OccupancyCB2|1|AGR3|Agricultural processing
+15|Occupancy|Building occupancy class - detail|OccupancyCB2|1|ASS99|Assembly, unknown type
+15|Occupancy|Building occupancy class - detail|OccupancyCB2|1|ASS1|Religious gathering
+15|Occupancy|Building occupancy class - detail|OccupancyCB2|1|ASS2|Arena
+15|Occupancy|Building occupancy class - detail|OccupancyCB2|1|ASS3|Cinema or concert hall
+15|Occupancy|Building occupancy class - detail|OccupancyCB2|1|ASS4|Other gatherings
+15|Occupancy|Building occupancy class - detail|OccupancyCB2|1|GOV99|Government, unknown type
+15|Occupancy|Building occupancy class - detail|OccupancyCB2|1|GOV1|Government, general services
+15|Occupancy|Building occupancy class - detail|OccupancyCB2|1|GOV2|Government, emergency response
+15|Occupancy|Building occupancy class - detail|OccupancyCB2|1|EDU99|Education, unknown type
+15|Occupancy|Building occupancy class - detail|OccupancyCB2|1|EDU1|Pre-school facility
+15|Occupancy|Building occupancy class - detail|OccupancyCB2|1|EDU2|School
+15|Occupancy|Building occupancy class - detail|OccupancyCB2|1|EDU3|College/university, offices and/or classrooms
+15|Occupancy|Building occupancy class - detail|OccupancyCB2|1|EDU4|College/university, research facilities and/or labs
+16|Building position within a block|Building position within a block|PositionCB|0|BP99|Unknown building position
+16|Building position within a block|Building position within a block|PositionCB|0|BPD|Detached building
+16|Building position within a block|Building position within a block|PositionCB|0|BP1|Adjoining building(s) on one side
+16|Building position within a block|Building position within a block|PositionCB|0|BP2|Adjoining building(s) on two sides
+16|Building position within a block|Building position within a block|PositionCB|0|BP3|Adjoining building(s) on three sides
+17|Shape of the building plan|Plan shape|PlanShapeCB|0|PLF99|Unknown plan shape
+17|Shape of the building plan|Plan shape|PlanShapeCB|0|PLFSQ|Square, solid
+17|Shape of the building plan|Plan shape|PlanShapeCB|0|PLFSQO|Square, with an opening in plan
+17|Shape of the building plan|Plan shape|PlanShapeCB|0|PLFR|Rectangular, solid
+17|Shape of the building plan|Plan shape|PlanShapeCB|0|PLFRO|Rectangular, with an opening in plan
+17|Shape of the building plan|Plan shape|PlanShapeCB|0|PLFL|L-shape
+17|Shape of the building plan|Plan shape|PlanShapeCB|0|PLFC|Curved, solid (e.g. circular, eliptical, ovoid)
+17|Shape of the building plan|Plan shape|PlanShapeCB|0|PLFCO|Curved, with an opening in plan
+17|Shape of the building plan|Plan shape|PlanShapeCB|0|PLFD|Triangular, solid
+17|Shape of the building plan|Plan shape|PlanShapeCB|0|PLFDO|Triangular, with an opening in plan
+17|Shape of the building plan|Plan shape|PlanShapeCB|0|PLFE|E-shape
+17|Shape of the building plan|Plan shape|PlanShapeCB|0|PLFH|H-shape
+17|Shape of the building plan|Plan shape|PlanShapeCB|0|PLFS|S-shape
+17|Shape of the building plan|Plan shape|PlanShapeCB|0|PLFT|T-shape
+17|Shape of the building plan|Plan shape|PlanShapeCB|0|PLFU|U- or C-shape
+17|Shape of the building plan|Plan shape|PlanShapeCB|0|PLFX|X-shape
+17|Shape of the building plan|Plan shape|PlanShapeCB|0|PLFY|Y-shape
+17|Shape of the building plan|Plan shape|PlanShapeCB|0|PLFP|Polygonal, solid
+17|Shape of the building plan|Plan shape|PlanShapeCB|0|PLFPO|Polygonal, with an opening in plan
+17|Shape of the building plan|Plan shape|PlanShapeCB|0|PLFI|Irregular plan shape
+18|Structural irregularity|Type of irregularity|RegularityCB1|0|IR99|Unknown structural irregularity
+18|Structural irregularity|Type of irregularity|RegularityCB1|0|IRRE|Regular structure
+18|Structural irregularity|Type of irregularity|RegularityCB1|0|IRIR|Irregular structure
+19|Structural irregularity|Plan structural irregularity - primary|RegularityCB2|1|IRPP|Plan irregularity-primary
+19|Structural irregularity|Plan structural irregularity - primary|RegularityCB2|1|IRPP:IRN|No irregularity
+19|Structural irregularity|Plan structural irregularity - primary|RegularityCB2|1|IRPP:TOR|Torsion eccentricity
+19|Structural irregularity|Plan structural irregularity - primary|RegularityCB2|1|IRPP:REC|Re-entrant corner
+19|Structural irregularity|Plan structural irregularity - primary|RegularityCB2|1|IRPP:IRHO|Other plan irregularity
+20|Structural irregularity|Plan structural irregularity - secondary|RegularityCB4|2|IRPS|Plan irregularity-secondary
+20|Structural irregularity|Plan structural irregularity - secondary|RegularityCB4|2|IRPS:IRN|No irregularity
+20|Structural irregularity|Plan structural irregularity - secondary|RegularityCB4|2|IRPS:TOR|Torsion eccentricity
+20|Structural irregularity|Plan structural irregularity - secondary|RegularityCB4|2|IRPS:REC|Re-entrant corner
+20|Structural irregularity|Plan structural irregularity - secondary|RegularityCB4|2|IRPS:IRHO|Other plan irregularity
+21|Structural irregularity|Vertical structural irregularity - primary|RegularityCB3|3|IRVP|Vertical structural irregularity - primary
+21|Structural irregularity|Vertical structural irregularity - primary|RegularityCB3|3|IRVP:IRN|No irregularity
+21|Structural irregularity|Vertical structural irregularity - primary|RegularityCB3|3|IRVP:SOS|Soft storey
+21|Structural irregularity|Vertical structural irregularity - primary|RegularityCB3|3|IRVP:CRW|Cripple wall
+21|Structural irregularity|Vertical structural irregularity - primary|RegularityCB3|3|IRVP:SHC|Short column
+21|Structural irregularity|Vertical structural irregularity - primary|RegularityCB3|3|IRVP:POP|Pounding potential
+21|Structural irregularity|Vertical structural irregularity - primary|RegularityCB3|3|IRVP:SET|Setback
+21|Structural irregularity|Vertical structural irregularity - primary|RegularityCB3|3|IRVP:CHV|Change in vertical structure
+21|Structural irregularity|Vertical structural irregularity - primary|RegularityCB3|3|IRVP:IRVO|Other vertical irregularity
+22|Structural irregularity|Vertical structural irregularity - secondary|RegularityCB5|4|IRVS|Vertical structural irregularity - secondary
+22|Structural irregularity|Vertical structural irregularity - secondary|RegularityCB5|4|IRVS:IRN|No irregularity
+22|Structural irregularity|Vertical structural irregularity - secondary|RegularityCB5|4|IRVS:SOS|Soft storey
+22|Structural irregularity|Vertical structural irregularity - secondary|RegularityCB5|4|IRVS:CRW|Cripple wall
+22|Structural irregularity|Vertical structural irregularity - secondary|RegularityCB5|4|IRVS:SHC|Short column
+22|Structural irregularity|Vertical structural irregularity - secondary|RegularityCB5|4|IRVS:POP|Pounding potential
+22|Structural irregularity|Vertical structural irregularity - secondary|RegularityCB5|4|IRVS:SET|Setback
+22|Structural irregularity|Vertical structural irregularity - secondary|RegularityCB5|4|IRVS:CHV|Change in vertical structure
+22|Structural irregularity|Vertical structural irregularity - secondary|RegularityCB5|4|IRVS:IRVO|Other vertical irregularity
+23|Exterior walls|Material of exterior walls|WallsCB|0|EW99|Unknown material of exterior walls
+23|Exterior walls|Material of exterior walls|WallsCB|0|EWC|Concrete exterior walls
+23|Exterior walls|Material of exterior walls|WallsCB|0|EWG|Glass exterior walls
+23|Exterior walls|Material of exterior walls|WallsCB|0|EWE|Earthen exterior walls
+23|Exterior walls|Material of exterior walls|WallsCB|0|EWMA|Masonry exterior walls
+23|Exterior walls|Material of exterior walls|WallsCB|0|EWME|Metal exterior walls
+23|Exterior walls|Material of exterior walls|WallsCB|0|EWV|Vegetative exterior walls
+23|Exterior walls|Material of exterior walls|WallsCB|0|EWW|Wooden exterior walls
+23|Exterior walls|Material of exterior walls|WallsCB|0|EWSL|Stucco finish on light framing for exterior walls
+23|Exterior walls|Material of exterior walls|WallsCB|0|EWPL|Plastic/vinyl exterior walls, various
+23|Exterior walls|Material of exterior walls|WallsCB|0|EWCB|Cement-based boards for exterior walls
+23|Exterior walls|Material of exterior walls|WallsCB|0|EWO|Material of exterior walls, other
+24|Roof|Roof shape|RoofCB1|0|RSH99|Unknown roof shape
+24|Roof|Roof shape|RoofCB1|0|RSH1|Flat
+24|Roof|Roof shape|RoofCB1|0|RSH2|Pitched with gable ends
+24|Roof|Roof shape|RoofCB1|0|RSH3|Pitched and hipped
+24|Roof|Roof shape|RoofCB1|0|RSH4|Pitched with dormers
+24|Roof|Roof shape|RoofCB1|0|RSH5|Monopitch
+24|Roof|Roof shape|RoofCB1|0|RSH6|Sawtooth
+24|Roof|Roof shape|RoofCB1|0|RSH7|Curved
+24|Roof|Roof shape|RoofCB1|0|RSH8|Complex regular
+24|Roof|Roof shape|RoofCB1|0|RSH9|Complex irregular
+24|Roof|Roof shape|RoofCB1|0|RSHO|Roof shape, other
+25|Roof|Roof covering|RoofCB2|1|RMT99|Unknown roof covering
+25|Roof|Roof covering|RoofCB2|1|RMN|Concrete roof, no covering
+25|Roof|Roof covering|RoofCB2|1|RMT1|Clay or concrete tile roof covering
+25|Roof|Roof covering|RoofCB2|1|RMT2|Fibre cement or metal tile covering
+25|Roof|Roof covering|RoofCB2|1|RMT3|Membrane roof covering
+25|Roof|Roof covering|RoofCB2|1|RMT4|Slate roof covering
+25|Roof|Roof covering|RoofCB2|1|RMT5|Stone slab roof covering
+25|Roof|Roof covering|RoofCB2|1|RMT6|Metal or asbestos sheet covering
+25|Roof|Roof covering|RoofCB2|1|RMT7|Wooden or asphalt shingle covering
+25|Roof|Roof covering|RoofCB2|1|RMT8|Vegetative roof covering
+25|Roof|Roof covering|RoofCB2|1|RMT9|Earthen roof covering
+25|Roof|Roof covering|RoofCB2|1|RMT10|Solar panelled roofs
+25|Roof|Roof covering|RoofCB2|1|RMT11|Tensile membrane or fabric roof
+25|Roof|Roof covering|RoofCB2|1|RMTO|Roof covering, other
+26|Roof|Roof system material|RoofCB3|2|R99|Roof material, unknown
+26|Roof|Roof system material|RoofCB3|2|RM|Masonry roof
+26|Roof|Roof system material|RoofCB3|2|RE|Earthen roof
+26|Roof|Roof system material|RoofCB3|2|RC|Concrete roof
+26|Roof|Roof system material|RoofCB3|2|RME|Metal roof
+26|Roof|Roof system material|RoofCB3|2|RWO|Wooden roof
+26|Roof|Roof system material|RoofCB3|2|RFA|Fabric roof
+26|Roof|Roof system material|RoofCB3|2|RO|Roof material,other
+27|Roof|Roof system type|RoofCB4|3|RM99|Masonry roof, unknown
+27|Roof|Roof system type|RoofCB4|3|RM1|Vaulted masonry roof
+27|Roof|Roof system type|RoofCB4|3|RM2|Shallow-arched masonry roof
+27|Roof|Roof system type|RoofCB4|3|RM3|Composite masonry and concrete roof system
+27|Roof|Roof system type|RoofCB4|3|RE99|Earthen roof, unknown
+27|Roof|Roof system type|RoofCB4|3|RE1|Vaulted earthen roofs
+27|Roof|Roof system type|RoofCB4|3|RC99|Concrete roof, unknown
+27|Roof|Roof system type|RoofCB4|3|RC1|Cast-in-place beamless RC roof
+27|Roof|Roof system type|RoofCB4|3|RC2|Cast-in-place beam-supported RC roof
+27|Roof|Roof system type|RoofCB4|3|RC3|Precast concrete roof with RC topping
+27|Roof|Roof system type|RoofCB4|3|RC4|Precast concrete roof without RC topping
+27|Roof|Roof system type|RoofCB4|3|RME99|Metal roof, unknown
+27|Roof|Roof system type|RoofCB4|3|RME1|Metal beams or trusses supporting light roofing
+27|Roof|Roof system type|RoofCB4|3|RME2|Metal roof beams supporting precast concrete slabs
+27|Roof|Roof system type|RoofCB4|3|RME3|Composite steel roof deck and concrete slab
+27|Roof|Roof system type|RoofCB4|3|RWO99|Wooden roof, unknown
+27|Roof|Roof system type|RoofCB4|3|RWO1|Wooden structure with light roof covering
+27|Roof|Roof system type|RoofCB4|3|RWO2|Wooden beams or trusses with heavy roof covering
+27|Roof|Roof system type|RoofCB4|3|RWO3|Wood-based sheets on rafters or purlins
+27|Roof|Roof system type|RoofCB4|3|RWO4|Plywood panels or other light-weigth panels for roof
+27|Roof|Roof system type|RoofCB4|3|RWO5|Bamboo, straw or thatch roof
+27|Roof|Roof system type|RoofCB4|3|RFA1|Inflatable or tensile membrane roof
+27|Roof|Roof system type|RoofCB4|3|RFAO|Fabric roof, other
+28|Roof|Roof connections|RoofCB5|4|RWC99|Roof-wall diaphragm connection unknown
+28|Roof|Roof connections|RoofCB5|4|RWCN|Roof-wall diaphragm connection not provided
+28|Roof|Roof connections|RoofCB5|4|RWCP|Roof-wall diaphragm connection present
+28|Roof|Roof connections|RoofCB5|4|RTD99|Roof tie-down unknown
+28|Roof|Roof connections|RoofCB5|4|RTDN|Roof tie-down not provided
+28|Roof|Roof connections|RoofCB5|4|RTDP|Roof tie-down present
+29|Floor|Floor system material|FloorCB1|0|F99|Floor material, unknown
+29|Floor|Floor system material|FloorCB1|0|FN|No elevated or suspended floor material (single-storey)
+29|Floor|Floor system material|FloorCB1|0|FM|Masonry floor
+29|Floor|Floor system material|FloorCB1|0|FE|Earthen floor
+29|Floor|Floor system material|FloorCB1|0|FC|Concrete floor
+29|Floor|Floor system material|FloorCB1|0|FME|Metal floor
+29|Floor|Floor system material|FloorCB1|0|FW|Wooden floor
+29|Floor|Floor system material|FloorCB1|0|FO|Floor material, other
+30|Floor|Floor system type|FloorCB2|1|FWC99|Floor-wall diaphragm connection, unknown
+30|Floor|Floor system type|FloorCB2|1|FWCN|Floor-wall diaphragm connection not provided
+30|Floor|Floor system type|FloorCB2|1|FWCP|Floor-wall diaphragm connection present
+31|Floor|Floor connections|FloorCB3|2|FM99|Masonry floor, unknown
+31|Floor|Floor connections|FloorCB3|2|FM1|Vaulted masonry floor
+31|Floor|Floor connections|FloorCB3|2|FM2|Shallow-arched masonry floor
+31|Floor|Floor connections|FloorCB3|2|FM3|Composite cast-in place RC and masonry floor
+31|Floor|Floor connections|FloorCB3|2|FE99|Earthen floor, unknown
+31|Floor|Floor connections|FloorCB3|2|FC99|Concrete floor, unknown
+31|Floor|Floor connections|FloorCB3|2|FC1|Cast-in-place beamless RC floor
+31|Floor|Floor connections|FloorCB3|2|FC2|Cast-in-place beam-supported RC floor
+31|Floor|Floor connections|FloorCB3|2|FC3|Precast concrete floor with RC topping
+31|Floor|Floor connections|FloorCB3|2|FC4|Precast concrete floor without RC topping
+31|Floor|Floor connections|FloorCB3|2|FME99|Metal floor, unknown
+31|Floor|Floor connections|FloorCB3|2|FME1|Metal beams, trusses or joists supporting light flooring
+31|Floor|Floor connections|FloorCB3|2|FME2|Metal floor beams supporting precast concrete slabs
+31|Floor|Floor connections|FloorCB3|2|FME3|Composite steel deck and concrete slab
+31|Floor|Floor connections|FloorCB3|2|FW99|Wooden floor, unknown
+31|Floor|Floor connections|FloorCB3|2|FW1|Wood beams/trusses & joists supporting light flooring
+31|Floor|Floor connections|FloorCB3|2|FW2|Wood beams/trusses & joists supporting heavy flooring
+31|Floor|Floor connections|FloorCB3|2|FW3|Wood-based sheets on joists or beams
+31|Floor|Floor connections|FloorCB3|2|FW4|Plywood panels or other light-weigth panels for floor
+32|Foundation|Foundation system|FoundationsCB|0|FOS99|Unknown foundation system
+32|Foundation|Foundation system|FoundationsCB|0|FOSSL|Shallow foundation, with lateral capacity
+32|Foundation|Foundation system|FoundationsCB|0|FOSN|Shallow foundation, with no lateral capacity
+32|Foundation|Foundation system|FoundationsCB|0|FOSDL|Deep foundation, with lateral capacity
+32|Foundation|Foundation system|FoundationsCB|0|FOSDN|Deep foundation, with no lateral capacity
+32|Foundation|Foundation system|FoundationsCB|0|FOSO|Foundation, other

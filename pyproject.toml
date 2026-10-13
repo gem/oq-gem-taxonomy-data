@@ -38,7 +38,7 @@ exclude = ['build*']
 version = {attr = "openquake.gem_taxonomy_data.version.__version__"}
 
 [tool.setuptools.package-data]
-"openquake.gem_taxonomy_data.data" = ["*.json"]
+"openquake.gem_taxonomy_data.data" = ["*.json", "*.psv"]
 
 [tool.distutils.egg_info]
 egg_base = ".egg_dir"
